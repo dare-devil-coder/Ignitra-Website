@@ -1,6 +1,6 @@
 # Ignitra rebuild
 
-A fresh content-preserving rebuild of https://www.ignitra.co.in/. Stage 1 provides the audit, locked copy, static Next.js foundation and both theme token maps. The current page is a plain content proof, not the finished design.
+A fresh content-preserving rebuild of https://www.ignitra.co.in/. Stage 2 implements the responsive homepage and client interactions in both themes. Scroll choreography and live 3D are planned for Stage 3. Consultation delivery requires an approved endpoint before launch.
 
 ## Setup
 
@@ -13,11 +13,12 @@ Use Node 24.11.0 and npm. Run npm ci, then npm run dev. For production verificat
 - npm test — verifier mutation tests
 - npm run verify-content — actual browser comparison against independent legacy snapshots
 - npm run test:visual — foundation screenshots at four widths in both themes
+- npm run test:delivery — temporary endpoint build, intercepted local submission tests, then restore the endpoint-free production build
 - npm run lighthouse — Lighthouse CI against built static output (final reporting in Stage 4)
 
 ## Project map
 
-content/ holds all site copy, observed states, metadata and immutable comparison data. src/lib/content is the sole application access point. src/styles/tokens.css owns the palette and themes. src/lib/theme/bootstrap.ts applies stored/system preference before paint. src/lib/motion contains tokens only until Stage 3. src/components/foundation is deliberately temporary; the Stage 2 model replaces it with sections and primitives. public/assets contains copied local assets and fonts. docs contains the audit, skills, assets, section map, design contract and handoff. tasks contains the staged plan.
+content/ holds all site copy, observed states, metadata and immutable comparison data. src/lib/content is the sole application access point. src/styles/tokens.css owns the palette and themes. src/lib/theme/bootstrap.ts applies stored/system preference before paint. src/lib/motion contains tokens only until Stage 3. src/components/{ui,sections,layout} owns the built interface; the temporary proof renderer has been removed. public/assets contains copied local assets and fonts. docs contains the audit, skills, assets, section map, design contract and handoff. tasks contains the staged plan.
 
 ## Content and evidence
 
@@ -27,4 +28,4 @@ Never refresh the snapshot to mask a failure. scripts/extract-content.mjs is a o
 
 The current build produces out/ using Next.js static export. It can be served by a static host. Preserve the apex-domain canonical and asset paths; GitHub Pages subpath hosting requires an explicit basePath decision. Nothing has been pushed or deployed. Consultation backend parity must be resolved before launch; the original private Server Action cannot be exported from a public page.
 
-No Python tooling or requirements.txt is needed. No runtime environment variable is used by Stage 1, so .env.example is intentionally omitted; add it when the Stage 2 backend is selected.
+No Python tooling or requirements.txt is needed. Copy .env.example to .env.local and set NEXT_PUBLIC_CONSULTATION_ENDPOINT only after an approved endpoint is available. An empty value keeps Send request disabled. See docs/CONSULTATION.md for the contract and local-only test.

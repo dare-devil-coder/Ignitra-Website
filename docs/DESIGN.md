@@ -112,3 +112,11 @@ Do read all copy through the content module. Do preserve the section order and e
 | Stagger / reveal distance / scrub / Lenis lerp                     | 0.08s / 40px / 1 / 0.1                                     |
 | Z-index: content / nav / progress / menu / dialog / intro / cursor | 1 / 30 / 40 / 50 / 60 / 70 / 80                            |
 | Reduced motion                                                     | durations and displacement 0; no pin/scrub/parallax/cursor |
+
+## Stage 2 implementation — 2026-10-25
+
+The static homepage now applies this existing world through shared content, container, section, heading, link/button and card primitives. The eight main sections retain their source order. The desktop hero uses a twelve-column grid, with copy spanning eight columns and theme-specific rocket media spanning four; mobile stacks both across the available width. Floating pill navigation, editorial problem/service rows, a seven-stage selectable loop, seven fully visible engine steps, the single inverted compounding band, an asymmetric reasons grid, engagement brief, CTA and large wordmark footer are implemented in both themes.
+
+Archivo Expanded, Inter and IBM Plex Mono remain the display, body and label families. The shared display token remains available; the homepage h1 uses a narrower role-specific clamp in globals.css to accommodate the locked headline. Generic hover, border, backdrop, inverted-border, section-band, shadow and CTA-lighting primitives extend the semantic token layer without adding palette colors. Ember fill stays exact; light-theme accent text uses accent-text.
+
+Navigation and consultation use native modal dialogs, explicit Tab wrapping and focus restoration. The inline service listbox retains every option hint and supports arrows, Home/End, Enter/Space and Escape. Theme bootstrap runs before paint; the icon toggle persists a choice and tolerates unavailable storage. Static content remains visible with reduced motion; scroll choreography, live 3D and the circular theme reveal remain Stage 3 work. See [DESIGN_STAGE2_REVIEW.md](DESIGN_STAGE2_REVIEW.md) for implementation evidence, the approved phone-pattern correction and delivery/QA limits. This addendum preserves the governing schema and visual identity.

@@ -16,7 +16,8 @@
     "test": "node --test tests/*.test.mjs",
     "verify-content": "node scripts/verify-content.mjs",
     "test:visual": "playwright test",
-    "lighthouse": "lhci autorun"
+    "lighthouse": "lhci autorun",
+    "test:delivery": "node scripts/test-delivery.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

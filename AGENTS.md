@@ -33,3 +33,5 @@ content/: immutable baseline and copy. src/app/: routes. src/components/foundati
 ## Budgets and Git
 
 Target mobile Lighthouse >=85, LCP <2.5s, CLS <0.1; 60fps desktop scrolling. Lazy-load 3D, cap DPR at 2; use static posters on low-power/reduced-motion devices. Build on build/from-scratch with main retained. Commit verified phases; do not push or deploy without a request. The repository was initialized by the sandbox identity; if necessary use command-scoped git -c safe.directory="D:/My Space/Ignitra Website" rather than changing global configuration.
+
+Stage 2 correction: the user explicitly approved fixing the malformed phone pattern on 2026-10-25. The exact original/new attribute pair is in content/allowed-diffs.json; source evidence stays unchanged. Original authored/state/attribute records are additionally frozen by content/records-lock.sha256. Never alter either lock to pass a check. Production consultation delivery needs an approved NEXT_PUBLIC_CONSULTATION_ENDPOINT; no endpoint means disabled Send request. npm run test:delivery uses intercepted local requests and restores the disabled production build.

@@ -22,3 +22,11 @@ Full available filesystem skill names, descriptions and paths were inventoried b
 The computer-use entry skill was read during initial browser fallback; screenshots/extraction ultimately used user-requested Playwright. accessibility-test-plan was inspected but not selected because this task is an audit rather than recruiting AT users. No additional 3D design skill is needed for Stage 1's audit; reselect 3D/performance skills in Stage 3. No skill was invented or installed globally.
 
 Final Stage 1 evidence: Impeccable detect returned an empty findings array (run once). create-design-md schema validation/export succeeded; a primary alias of ember addresses its schema warning without introducing a color. Contrast checks and Playwright results are recorded in docs/VERIFICATION.md. Skill selection is unchanged during this continuation of Stage 1.
+
+## Stage 2 — GPT-6.1-Sol
+
+Available skills re-listed in SKILL_INVENTORY_STAGE2.md. Selected and loaded: ui-skills-root (route UI work); impeccable (pinned brief and bounded craft/review); frontend-design (distinct compositions); apple-design (direct feedback, semantic hierarchy and reduced motion); responsive-design (360 through 1920 and input methods); form-design (persistent labels, field constraints, focus and selector behavior); accessibility-audit (keyboard/dialog checks); playwright (rendered state and screenshot verification); create-design-md (preserve the governing design contract); superdesign:superdesign (required tool preflight and free inspiration search). The user explicitly requested Playwright test files, overriding its CLI-first default.
+
+Impeccable context ran once this stage. The user's pinned visual direction, content lock and autonomous staged plan supersede optional concept interviews, copy edits and competing style rolls. Its v4.7 update notice is recorded; no update was made during work. Stage 3 retains motion/3D implementation; animation-principles and report-template work are deferred to their designated stages.
+
+Superdesign authentication succeeded this stage. A free search for cinematic agency references returned DesPunch and Superdesign examples; the fixed Ignitra palette, fonts and assets govern. No paid generation, credit use or publishing occurred.

@@ -98,3 +98,30 @@
     --reveal-distance: 0px;
   }
 }
+:root {
+  --accent-hover: color-mix(in srgb, var(--ember) 85%, var(--cream));
+  --hover-border: color-mix(in srgb, var(--ember) 60%, transparent);
+  --backdrop: color-mix(in srgb, var(--ink) 75%, transparent);
+  --inverted-border: color-mix(in srgb, var(--inverted-text) 20%, transparent);
+  --section-band: color-mix(in srgb, var(--surface-alt) 35%, var(--bg));
+  --card-shadow: 0 16px 36px color-mix(in srgb, var(--ink) 16%, transparent);
+  --button-glow: 0 8px 28px color-mix(in srgb, var(--ember) 18%, transparent);
+  --cta-background:
+    radial-gradient(
+      ellipse at 50% 55%,
+      color-mix(in srgb, var(--ember) 7%, transparent),
+      transparent 65%
+    ),
+    var(--bg);
+}
+:root[data-theme='light'] {
+  --button-glow: 0 8px 24px color-mix(in srgb, var(--ember) 10%, transparent);
+  --card-shadow: 0 16px 36px color-mix(in srgb, var(--ink) 8%, transparent);
+  --cta-background:
+    radial-gradient(
+      ellipse at 50% 55%,
+      color-mix(in srgb, var(--ember) 4%, transparent),
+      transparent 65%
+    ),
+    var(--bg);
+}

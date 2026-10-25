@@ -15,3 +15,5 @@ playwright-report/
 docs/legacy-source/*.js
 docs/legacy-source/*.css
 docs/legacy-source/index.html
+
+.impeccable/review/

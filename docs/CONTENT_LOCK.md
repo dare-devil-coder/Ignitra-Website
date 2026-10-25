@@ -11,3 +11,9 @@ Stage 2 must add behavioral tests that open the menu and dialog, select every lo
 Public backend-generated errors cannot be extracted without the private implementation or exercising a live submission. They are an explicit evidence gap, not invented or silently exempted. The client success/pending/required-service messages are grounded in the public client bundle. The non-text theme toggle is the sole allowed new UI. Technical attribute differences are listed narrowly in allowed-diffs.json.
 
 The first incomplete entrance-animation capture is archived unchanged in docs/initial-capture. Before any commit, a fresh source-only audit visited every heading and checked visibility. All authored text arrays were identical. The corrected baseline requires every main heading and all seven engine stages in each profile; verification fails early if that coverage is missing. Source accessibility/form attributes are also retained independently.
+
+## Stage 2 extension
+
+The verifier now opens the mobile menu and consultation dialog, selects every service and loop stage, checks real field attributes/focus restoration, and exercises theme persistence. Each settled loop state compares every captured authored record: the source's transient fade visibility is not treated as missing final text. The original source snapshot and hash remain unchanged. Original page/state/client-message/accessibility records are also hashed in records-lock.sha256, derived from the verified Stage 1 commit ad77597. UI-only theme labels and the approved phone override live outside those source records.
+
+On 2026-10-25 the user explicitly selected “Correct the phone pattern.” allowed-diffs.json records the single exact old/new pattern pair and authorization. This is a user-approved functional attribute correction, not a text exception or a silent source edit. The original malformed pattern remains in source evidence. All other source field constraints remain exact.

@@ -10,5 +10,14 @@
     "data-content-section",
     "aria-pressed"
   ],
-  "contentDifferences": []
+  "contentDifferences": [],
+  "approvedAttributeCorrections": [
+    {
+      "selector": "input[name=\"phone\"]",
+      "attribute": "pattern",
+      "legacy": "\\+?[\\d\\s()\\-]{7,20}",
+      "value": "\\+?[\\d\\s\\(\\)\\-]{7,20}",
+      "authorization": "User explicitly selected \"Correct the phone pattern\" during Stage 2 on 2026-10-25. No text changes authorized."
+    }
+  ]
 }

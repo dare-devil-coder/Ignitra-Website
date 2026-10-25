@@ -1,14 +1,36 @@
-import { sections } from '@/lib/content';
-import { ContentLedger } from '@/components/foundation/ContentLedger';
-// Stage 1 content proof only. Replace its layout in Stage 2 using the same locked data.
+import { ContentLink } from '@/components/ui/Primitives';
+import { Navigation } from '@/components/layout/Navigation';
+import { Footer } from '@/components/layout/Footer';
+import { Consultation } from '@/components/layout/Consultation';
+import { Difference } from '@/components/sections/Difference';
+import {
+  Hero,
+  Problem,
+  Services,
+  Engine,
+  Why,
+  Start,
+  CTA,
+} from '@/components/sections/Sections';
 export default function Home() {
   return (
     <>
-      <ContentLedger sections={sections.slice(0, 2)} />
-      <main id="main">
-        <ContentLedger sections={sections.slice(2, 10)} />
+      <div data-content-section="skip" className="skip-wrap">
+        <ContentLink section="skip" n={1} className="skip-link" />
+      </div>
+      <Navigation />
+      <main id="main" tabIndex={-1}>
+        <Hero />
+        <Problem />
+        <Difference />
+        <Services />
+        <Engine />
+        <Why />
+        <Start />
+        <CTA />
       </main>
-      <ContentLedger sections={sections.slice(10)} />
+      <Footer />
+      <Consultation />
     </>
   );
 }

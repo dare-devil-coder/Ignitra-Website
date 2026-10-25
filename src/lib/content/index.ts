@@ -35,3 +35,26 @@ export function asset(source: string): string {
   if (!match) throw new Error('Unmapped legacy asset: ' + source);
   return match.url;
 }
+
+export function item(sectionId: string, number: number): ContentItem {
+  const record = section(sectionId).items[number - 1];
+  if (!record) throw new Error('Unknown content item');
+  return record;
+}
+export function state(name: string) {
+  const found = siteContent.states.find((s) => s.name === name);
+  if (!found) throw new Error('Unknown content state');
+  return found as {
+    name: string;
+    items: Omit<ContentItem, 'id' | 'profiles'>[];
+  };
+}
+export function accessible(sectionId: string, attribute: string, index = 0) {
+  const records = siteContent.accessibility.filter(
+    (a) => a.section === sectionId && attribute in a.attributes,
+  );
+  return (
+    records[index]?.attributes as Record<string, string | undefined> | undefined
+  )?.[attribute];
+}
+export const themeLabels = siteContent.ui.themeToggle;

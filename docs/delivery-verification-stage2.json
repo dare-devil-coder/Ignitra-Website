@@ -1,0 +1,17 @@
+{
+  "scope": "Mocked local requests only. No real submission or delivery certification.",
+  "checks": [
+    "required-fields",
+    "required-service",
+    "pending-lock",
+    "failure-does-not-show-success",
+    "retry",
+    "payload-fields",
+    "acknowledged-success",
+    "focus-return"
+  ],
+  "requests": 2,
+  "consoleMessages": [
+    "Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)"
+  ]
+}

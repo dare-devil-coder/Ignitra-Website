@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
 import { serve } from './preview.mjs';
 import { compare } from './content-compare.mjs';
+import { verifyInteractions } from './verify-interactions.mjs';
 const bytes = await readFile('content/legacy-snapshot.json');
 const hash = (await readFile('content/lock.sha256', 'utf8')).trim();
 assert.equal(
@@ -13,6 +14,17 @@ assert.equal(
 );
 const snapshot = JSON.parse(bytes);
 const content = JSON.parse(await readFile('content/site-content.json', 'utf8'));
+const records = {
+  pages: content.pages,
+  states: content.states,
+  clientMessages: content.clientMessages,
+  accessibility: content.accessibility,
+};
+assert.equal(
+  createHash('sha256').update(JSON.stringify(records)).digest('hex'),
+  (await readFile('content/records-lock.sha256', 'utf8')).trim(),
+  'Original authored/state/attribute records changed',
+);
 const allow = JSON.parse(await readFile('content/allowed-diffs.json', 'utf8'));
 assert.deepEqual(
   allow.contentDifferences,
@@ -35,6 +47,16 @@ assert.deepEqual(
   'SEO source data changed',
 );
 // Coverage gate: an animation-timed source capture must not hide an entire section.
+assert.equal(allow.approvedAttributeCorrections.length, 1);
+assert.equal(
+  allow.approvedAttributeCorrections[0].selector,
+  'input[name="phone"]',
+);
+assert.equal(allow.approvedAttributeCorrections[0].attribute, 'pattern');
+assert.equal(
+  allow.approvedAttributeCorrections[0].value,
+  content.ui.form.phonePattern,
+);
 const mainIds = [
   'hero',
   'problem',
@@ -71,9 +93,10 @@ assert.deepEqual(
 let server;
 let browser;
 const report = {
-  stage: 1,
+  stage: 2,
   scope:
-    'Real rendered baseline at mobile/desktop in both themes, reduced motion; independent legacy profiles. Interactive implementation tests start in Stage 2.',
+    'Real rendered baseline at mobile/desktop in both themes, reduced motion; independent legacy profiles. Includes rendered menu/dialog/loop/form-attribute/theme interaction checks.',
+  approvedAttributeCorrections: allow.approvedAttributeCorrections,
   checks: [],
   diffs: [],
 };
@@ -91,10 +114,10 @@ try {
       reducedMotion: 'reduce',
       colorScheme: profile.theme,
     });
-    await context.addInitScript(
-      (theme) => localStorage.setItem('ignitra-theme', theme),
-      profile.theme,
-    );
+    await context.addInitScript((theme) => {
+      if (!localStorage.getItem('ignitra-theme'))
+        localStorage.setItem('ignitra-theme', theme);
+    }, profile.theme);
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', (e) => errors.push(e.message));
@@ -199,6 +222,23 @@ try {
         ...d,
       })),
     );
+    if (!diffs.length) {
+      try {
+        report.checks.at(-1).interactions = await verifyInteractions(
+          page,
+          snapshot,
+          profile,
+          allow,
+        );
+      } catch (error) {
+        report.diffs.push({
+          profile: profile.width + '-' + profile.theme,
+          key: 'interactions',
+          message: error.message,
+        });
+        report.checks.at(-1).result = 'FAIL';
+      }
+    }
     await context.close();
   }
   await mkdir('output/verification', { recursive: true });

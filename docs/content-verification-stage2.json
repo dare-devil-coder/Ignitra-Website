@@ -1,0 +1,98 @@
+{
+  "stage": 2,
+  "scope": "Real rendered baseline at mobile/desktop in both themes, reduced motion; independent legacy profiles. Includes rendered menu/dialog/loop/form-attribute/theme interaction checks.",
+  "approvedAttributeCorrections": [
+    {
+      "selector": "input[name=\"phone\"]",
+      "attribute": "pattern",
+      "legacy": "\\+?[\\d\\s()\\-]{7,20}",
+      "value": "\\+?[\\d\\s\\(\\)\\-]{7,20}",
+      "authorization": "User explicitly selected \"Correct the phone pattern\" during Stage 2 on 2026-10-25. No text changes authorized."
+    }
+  ],
+  "checks": [
+    {
+      "width": 375,
+      "theme": "dark",
+      "result": "PASS",
+      "interactions": [
+        "loop-1",
+        "loop-2",
+        "loop-3",
+        "loop-4",
+        "loop-5",
+        "loop-6",
+        "loop-7",
+        "consultation-open",
+        "consultation-options",
+        "form-attributes",
+        "service-selection",
+        "dialog-focus",
+        "mobile-menu",
+        "theme-toggle-and-persistence"
+      ]
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "result": "PASS",
+      "interactions": [
+        "loop-1",
+        "loop-2",
+        "loop-3",
+        "loop-4",
+        "loop-5",
+        "loop-6",
+        "loop-7",
+        "consultation-open",
+        "consultation-options",
+        "form-attributes",
+        "service-selection",
+        "dialog-focus",
+        "mobile-menu",
+        "theme-toggle-and-persistence"
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "result": "PASS",
+      "interactions": [
+        "loop-1",
+        "loop-2",
+        "loop-3",
+        "loop-4",
+        "loop-5",
+        "loop-6",
+        "loop-7",
+        "consultation-open",
+        "consultation-options",
+        "form-attributes",
+        "service-selection",
+        "dialog-focus",
+        "theme-toggle-and-persistence"
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "result": "PASS",
+      "interactions": [
+        "loop-1",
+        "loop-2",
+        "loop-3",
+        "loop-4",
+        "loop-5",
+        "loop-6",
+        "loop-7",
+        "consultation-open",
+        "consultation-options",
+        "form-attributes",
+        "service-selection",
+        "dialog-focus",
+        "theme-toggle-and-persistence"
+      ]
+    }
+  ],
+  "diffs": []
+}
