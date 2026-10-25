@@ -17,3 +17,4 @@
 - Corrected only the malformed phone pattern with explicit user authorization. No copy was changed.
 - Verified fourteen browser tests, six mutation tests, build/lint/types/format and four zero-diff content profiles. Independent UI reviewer disposition: ship at UI scope.
 - Consultation delivery remains disabled until the owner supplies an approved replacement endpoint; user confirmed original source is unavailable.
+- User explicitly deferred live consultation delivery until before launch and approved the Stage 3 handoff; Stage 2 closed with that dependency documented.

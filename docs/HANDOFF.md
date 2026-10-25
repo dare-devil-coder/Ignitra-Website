@@ -1,8 +1,8 @@
-# Handoff — Stage 2 UI verified; delivery configuration pending
+# Handoff — Stage 2 complete; Stage 3 ready
 
 ## Read first
 
-AGENTS.md, docs/SECTION_MAP.md, content/site-content.json, docs/CONTENT_LOCK.md, docs/DESIGN.md, docs/CONSULTATION.md and tasks/plan.md. Current stage/model: Stage 2 / GPT-6.1-Sol. Do not call Stage 2 functionally complete or start Stage 3 while consultation delivery remains unresolved unless the user explicitly defers that dependency.
+AGENTS.md, docs/SECTION_MAP.md, content/site-content.json, docs/CONTENT_LOCK.md, docs/DESIGN.md, docs/CONSULTATION.md and tasks/plan.md. Current stage/model: Stage 2 / GPT-6.1-Sol. The user explicitly instructed “Defer delivery; hand off to Stage 3.” Stage 2 is closed with live delivery deferred until before launch. Begin Stage 3 only after the user switches to GPT-6-Astra / High and requests it.
 
 ## Done
 
@@ -18,9 +18,9 @@ Optimized static build, lint, strict types, formatting, 6 mutation tests and 14 
 
 Local mock delivery tests pass required fields/service, pending/failure/no false success/retry/payload/ack success. They use intercepted loopback requests only and restore the endpoint-free production build. Normal-page theme tests have zero console errors/warnings. The mocked 422 is expected failure-path evidence. No live lead was sent.
 
-## Critical remaining dependency
+## Deferred launch dependency
 
-The user confirmed there is no original website source. No approved replacement consultation endpoint/service configuration is available. Production Send request is deliberately disabled when NEXT_PUBLIC_CONSULTATION_ENDPOINT is empty; do not fake success or replay the old private action ID. See CONSULTATION.md for the JSON response contract and unresolved server-error copy/spam/delivery requirements. Obtain the owner endpoint/configuration, implement its adapter/error catalog as needed, run local tests and verify delivery only with explicit authorization for a live test. This is why Stage 2 remains open despite completed UI work.
+The user confirmed there is no original website source. No approved replacement consultation endpoint/service configuration is available. Production Send request is deliberately disabled when NEXT_PUBLIC_CONSULTATION_ENDPOINT is empty; do not fake success or replay the old private action ID. See CONSULTATION.md for the JSON response contract and unresolved server-error copy/spam/delivery requirements. Obtain the owner endpoint/configuration, implement its adapter/error catalog as needed, run local tests and verify delivery only with explicit authorization for a live test. The user explicitly deferred this work to before launch. It does not block Stage 3, but real delivery remains unimplemented and must not be reported as working. Keep Send request disabled until configured and verified.
 
 Original postal spellings/year/touch hint are retained; do not silently edit. Dev-only Lighthouse dependency advisories from Stage 1 still need review in Stage 4; production audit had zero vulnerabilities. Superdesign authentication now works; Stage 2 used free inspiration search, no paid generation or publishing.
 
@@ -65,8 +65,8 @@ npm run lighthouse
 
 Dev http://127.0.0.1:3000; static preview http://127.0.0.1:4173. Content verifier starts loopback 4473. Mock delivery uses 4480 and intercepts requests. Playwright uses installed Chrome channel. Copy .env.example to .env.local only when an approved endpoint is available; rebuild after changing it. If test:delivery is forcibly interrupted, unset NEXT_PUBLIC_CONSULTATION_ENDPOINT and run build before previewing production. Scratch output is ignored; persisted evidence is in docs. Use a project-local npm cache if necessary.
 
-No Python/requirements.txt, remote, CI, push or deployment. .env.example now exists for the public endpoint URL (no secret). main retained at 9c687cf; branch build/from-scratch. Stage 1 commits ad77597 and c2a1809. The next Stage 2 commit contains this handoff; get its ID with git log -1 --oneline. Use command-scoped safe.directory per AGENTS if needed.
+No Python/requirements.txt, remote, CI, push or deployment. .env.example now exists for the public endpoint URL (no secret). main retained at 9c687cf; branch build/from-scratch. Stage 1 commits ad77597 and c2a1809. Stage 2 implementation commit: d712dd0. A following documentation commit records the explicit delivery deferral and closes the stage; get its ID with git log -1 --oneline. Use command-scoped safe.directory per AGENTS if needed.
 
 ## Next action
 
-Finish the owner-dependent consultation integration within Stage 2, or obtain an explicit decision to defer it. Before the eventual Stage 3 start: switch to GPT-6-Astra / High, reselect animation/3D/performance skills, read the required files, then follow tasks/plan.md. Preserve all static/reduced-motion content gates while adding bounded engine choreography, intro, cursor, nav behavior and theme reveal. No source GLB exists: independently author the rocket scene and retain the theme posters as fallback.
+The delivery deferral is approved. Switch to GPT-6-Astra / High and wait for the user to say “continue stage 3”. At Stage 3 entry, state stage/model, reselect animation/3D/performance skills, read the required files, then follow tasks/plan.md. Preserve all static/reduced-motion content gates while adding bounded engine choreography, intro, cursor, nav behavior and theme reveal. No source GLB exists: independently author the rocket scene and retain the theme posters as fallback.

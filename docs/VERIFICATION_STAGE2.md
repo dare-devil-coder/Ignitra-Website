@@ -1,6 +1,6 @@
 # Stage 2 verification
 
-UI and client interactions are verified. Stage 2 remains open for real consultation delivery configuration; no live delivery or original-backend parity is claimed.
+Stage 2 is complete under the user’s explicit instruction to defer delivery and hand off to Stage 3. UI and client interactions are verified; no live delivery or original-backend parity is claimed.
 
 | Check                                                  | Result                                                                                                                              |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,4 +24,4 @@ The final UI reviewer found no material layout defects in the supplied evidence.
 
 ## Things I need from you
 
-Supply an approved consultation endpoint/service configuration to enable delivery. Original backend source is confirmed unavailable. The unknown server error catalog, spam controls and actual delivery behavior must be resolved with that provider before launch. The interface and local mocked flow are ready.
+Deferred by the user until before launch: supply an approved consultation endpoint/service configuration to enable delivery. Original backend source is confirmed unavailable. The unknown server error catalog, spam controls and actual delivery behavior must be resolved with that provider before launch. The interface and local mocked flow are ready.

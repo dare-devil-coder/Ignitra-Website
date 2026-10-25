@@ -19,3 +19,7 @@ Run npm run test:delivery. It builds with a loopback-only endpoint, intercepts e
 ## Approved correction
 
 The original phone pattern was invalid under the browser's Unicode-v regex rules. The user approved correcting it on 2026-10-25. The exact correction is in content/allowed-diffs.json; original source evidence remains locked. Valid/invalid phone tests pass without the former regex console error.
+
+## User-approved deferral
+
+The user explicitly instructed “Defer delivery; hand off to Stage 3.” Delivery configuration and verification are deferred until before launch. Stage 3 may proceed after its model handoff; this decision does not enable Send request or certify delivery.
