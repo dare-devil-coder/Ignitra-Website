@@ -1,0 +1,5 @@
+﻿import {chromium} from 'playwright';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage({reducedMotion:'reduce'});await page.goto('https://www.ignitra.co.in/',{waitUntil:'networkidle'});await page.waitForTimeout(1000);
+const attributes=await page.evaluate(()=>[...document.querySelectorAll('[aria-label],[aria-labelledby],[title],input,textarea,select')].filter(e=>!e.closest('head')).map(e=>({section:e.closest('section')?.id||e.closest('dialog')&&'consultation'||e.closest('header')&&'navigation'||e.closest('footer')&&'footer'||'global',tag:e.tagName.toLowerCase(),attributes:Object.fromEntries([...e.attributes].filter(a=>['aria-label','aria-labelledby','title','name','type','placeholder','required','minlength','maxlength','pattern','autocomplete','inputmode','role'].includes(a.name)).map(a=>[a.name,a.value]))})));
+await writeFile('output/legacy-accessibility.json',JSON.stringify(attributes,null,2)+'\n');console.log(attributes.length,'attribute records');await browser.close();

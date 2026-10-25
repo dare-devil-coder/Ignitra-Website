@@ -1,0 +1,3044 @@
+{
+  "schemaVersion": 1,
+  "source": "https://www.ignitra.co.in",
+  "capturedAt": "2026-10-24T19:57:18.761Z",
+  "normalization": "Collapse whitespace only; preserve source CSS letter case in displayText. Default reduced-motion repeat-visit profile. Additional interactive states stored independently.",
+  "profiles": [
+    {
+      "width": 375,
+      "theme": "dark",
+      "sections": [
+        {
+          "id": "skip",
+          "text": "Skip to content",
+          "links": [
+            {
+              "text": "Skip to content",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "navigation",
+          "text": "",
+          "links": [
+            {
+              "text": "",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "hero",
+          "text": "CONSULTING · MARKETING · IT SOLUTIONS · INDIA Your business has the fuel. We create the spark. Business consulting, marketing and IT solutions under one roof, turning your potential into measurable, sustainable growth. Book a Consultation Explore Our Solutions THE SPARK · LIVE RENDER",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Explore Our Solutions",
+              "href": "#services",
+              "target": null
+            }
+          ],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "problem",
+          "text": "WHAT YOU HAVE WHERE GROWTH STALLS 01 Product A great product, but poor marketing 02 People Strong people, but poor strategy 03 Capital Capital, but inefficient operations 04 Customers Customers, but weak retention 05 Technology Technology, but no commercialisation 06 Brand Brand awareness, but poor conversion",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "difference",
+          "text": "THE USUAL WAY · THREE PARTNERS TRADITIONAL CONSULTANT Strategy → Report HANDOFF · CONTEXT LOST TRADITIONAL AGENCY Marketing → Campaign HANDOFF · CONTEXT LOST TECHNOLOGY PROVIDER Technology → System THE IGNITRA WAY · ONE CONTINUOUS LOOP UNDERSTAND STRATEGISE BUILD EXECUTE MEASURE OPTIMISE SCALE",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "services",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "engine",
+          "text": "04 — HOW WE WORK Seven steps from potential to scale. Our signature Ignitra Growth Engine™. Each step is led by the right discipline. THE COMPOUNDING EFFECT HOVER A STAGE POTENTIAL + STRATEGY + EXECUTION Growth GROWTH + OPTIMISATION Momentum MOMENTUM + EFFICIENCY Scale SCALE + SUSTAINABILITY Long-term value",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "why",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "start",
+          "text": "ENGAGEMENT BRIEF IN PROGRESS ✓ 01 Your requirement CAPTURED ✓ 02 Business diagnosis DIAGNOSED ✓ 03 Recommended solution RECOMMENDED ✓ 04 The right scope SCOPED ✓ 05 The right investment PRICED RESULT A plan built for you, not a package.",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "cta",
+          "text": "",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "footer",
+          "text": "IGNITE POTENTIAL. POWER GROWTH. PAGES Home Services Growth Engine™ Contact CONTACT PHONE +91 93132 70003 WHATSAPP Chat with us on WhatsApp EMAIL info@ignitra.co.in OFFICE B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India Ignitra Business Solutions Private Limited · CIN: U82990GJ2026PTC182376 · Registered office: B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India · RoC-Ahmedabad · © 2026",
+          "links": [
+            {
+              "text": "Home",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "+91 93132 70003",
+              "href": "tel:+919313270003",
+              "target": null
+            },
+            {
+              "text": "Chat with us on WhatsApp",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            },
+            {
+              "text": "info@ignitra.co.in",
+              "href": "mailto:info@ignitra.co.in",
+              "target": null
+            },
+            {
+              "text": "B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India",
+              "href": "https://www.google.com/maps/search/?api=1&query=B-202%2C%20Devsharnam%20Appt.%2C%20B%2Fh%20Parijati%20Bunglows%2C%20Uvarsad%2C%20Gandhinagar%2C%20Gujarat%20382422%2C%20India",
+              "target": "_blank"
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "mobile-actions",
+          "text": "Book a Consultation WhatsApp Us",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "WhatsApp Us",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "intro",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "consultation",
+          "text": "",
+          "links": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "sections": [
+        {
+          "id": "skip",
+          "text": "Skip to content",
+          "links": [
+            {
+              "text": "Skip to content",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "navigation",
+          "text": "",
+          "links": [
+            {
+              "text": "",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "hero",
+          "text": "CONSULTING · MARKETING · IT SOLUTIONS · INDIA Your business has the fuel. We create the spark. Business consulting, marketing and IT solutions under one roof, turning your potential into measurable, sustainable growth. Book a Consultation Explore Our Solutions THE SPARK · LIVE RENDER",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Explore Our Solutions",
+              "href": "#services",
+              "target": null
+            }
+          ],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "problem",
+          "text": "WHAT YOU HAVE WHERE GROWTH STALLS 01 Product A great product, but poor marketing 02 People Strong people, but poor strategy 03 Capital Capital, but inefficient operations 04 Customers Customers, but weak retention 05 Technology Technology, but no commercialisation 06 Brand Brand awareness, but poor conversion",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "difference",
+          "text": "THE USUAL WAY · THREE PARTNERS TRADITIONAL CONSULTANT Strategy → Report HANDOFF · CONTEXT LOST TRADITIONAL AGENCY Marketing → Campaign HANDOFF · CONTEXT LOST TECHNOLOGY PROVIDER Technology → System THE IGNITRA WAY · ONE CONTINUOUS LOOP UNDERSTAND STRATEGISE BUILD EXECUTE MEASURE OPTIMISE SCALE",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "services",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "engine",
+          "text": "04 — HOW WE WORK Seven steps from potential to scale. Our signature Ignitra Growth Engine™. Each step is led by the right discipline. THE COMPOUNDING EFFECT HOVER A STAGE POTENTIAL + STRATEGY + EXECUTION Growth GROWTH + OPTIMISATION Momentum MOMENTUM + EFFICIENCY Scale SCALE + SUSTAINABILITY Long-term value",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "why",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "start",
+          "text": "ENGAGEMENT BRIEF IN PROGRESS ✓ 01 Your requirement CAPTURED ✓ 02 Business diagnosis DIAGNOSED ✓ 03 Recommended solution RECOMMENDED ✓ 04 The right scope SCOPED ✓ 05 The right investment PRICED RESULT A plan built for you, not a package.",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "cta",
+          "text": "",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "footer",
+          "text": "IGNITE POTENTIAL. POWER GROWTH. PAGES Home Services Growth Engine™ Contact CONTACT PHONE +91 93132 70003 WHATSAPP Chat with us on WhatsApp EMAIL info@ignitra.co.in OFFICE B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India Ignitra Business Solutions Private Limited · CIN: U82990GJ2026PTC182376 · Registered office: B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India · RoC-Ahmedabad · © 2026",
+          "links": [
+            {
+              "text": "Home",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "+91 93132 70003",
+              "href": "tel:+919313270003",
+              "target": null
+            },
+            {
+              "text": "Chat with us on WhatsApp",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            },
+            {
+              "text": "info@ignitra.co.in",
+              "href": "mailto:info@ignitra.co.in",
+              "target": null
+            },
+            {
+              "text": "B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India",
+              "href": "https://www.google.com/maps/search/?api=1&query=B-202%2C%20Devsharnam%20Appt.%2C%20B%2Fh%20Parijati%20Bunglows%2C%20Uvarsad%2C%20Gandhinagar%2C%20Gujarat%20382422%2C%20India",
+              "target": "_blank"
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "mobile-actions",
+          "text": "Book a Consultation WhatsApp Us",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "WhatsApp Us",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "intro",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "consultation",
+          "text": "",
+          "links": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "sections": [
+        {
+          "id": "skip",
+          "text": "Skip to content",
+          "links": [
+            {
+              "text": "Skip to content",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "navigation",
+          "text": "Services Growth Engine™ Contact Book a Consultation",
+          "links": [
+            {
+              "text": "",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "hero",
+          "text": "CONSULTING · MARKETING · IT SOLUTIONS · INDIA Your business has the fuel. We create the spark. Business consulting, marketing and IT solutions under one roof, turning your potential into measurable, sustainable growth. Book a Consultation Explore Our Solutions THE SPARK · LIVE RENDER",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Explore Our Solutions",
+              "href": "#services",
+              "target": null
+            }
+          ],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "problem",
+          "text": "WHAT YOU HAVE WHERE GROWTH STALLS 01 Product A great product, but poor marketing 02 People Strong people, but poor strategy 03 Capital Capital, but inefficient operations 04 Customers Customers, but weak retention 05 Technology Technology, but no commercialisation 06 Brand Brand awareness, but poor conversion",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "difference",
+          "text": "THE USUAL WAY · THREE PARTNERS TRADITIONAL CONSULTANT Strategy → Report HANDOFF · CONTEXT LOST TRADITIONAL AGENCY Marketing → Campaign HANDOFF · CONTEXT LOST TECHNOLOGY PROVIDER Technology → System THE IGNITRA WAY · ONE CONTINUOUS LOOP UNDERSTAND STRATEGISE BUILD EXECUTE MEASURE OPTIMISE SCALE",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "services",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "engine",
+          "text": "04 — HOW WE WORK Seven steps from potential to scale. Our signature Ignitra Growth Engine™. Each step is led by the right discipline. THE COMPOUNDING EFFECT HOVER A STAGE POTENTIAL + STRATEGY + EXECUTION Growth GROWTH + OPTIMISATION Momentum MOMENTUM + EFFICIENCY Scale SCALE + SUSTAINABILITY Long-term value",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "why",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "start",
+          "text": "ENGAGEMENT BRIEF IN PROGRESS ✓ 01 Your requirement CAPTURED ✓ 02 Business diagnosis DIAGNOSED ✓ 03 Recommended solution RECOMMENDED ✓ 04 The right scope SCOPED ✓ 05 The right investment PRICED RESULT A plan built for you, not a package.",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "cta",
+          "text": "",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "footer",
+          "text": "IGNITE POTENTIAL. POWER GROWTH. PAGES Home Services Growth Engine™ Contact CONTACT PHONE +91 93132 70003 WHATSAPP Chat with us on WhatsApp EMAIL info@ignitra.co.in OFFICE B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India Ignitra Business Solutions Private Limited · CIN: U82990GJ2026PTC182376 · Registered office: B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India · RoC-Ahmedabad · © 2026",
+          "links": [
+            {
+              "text": "Home",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "+91 93132 70003",
+              "href": "tel:+919313270003",
+              "target": null
+            },
+            {
+              "text": "Chat with us on WhatsApp",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            },
+            {
+              "text": "info@ignitra.co.in",
+              "href": "mailto:info@ignitra.co.in",
+              "target": null
+            },
+            {
+              "text": "B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India",
+              "href": "https://www.google.com/maps/search/?api=1&query=B-202%2C%20Devsharnam%20Appt.%2C%20B%2Fh%20Parijati%20Bunglows%2C%20Uvarsad%2C%20Gandhinagar%2C%20Gujarat%20382422%2C%20India",
+              "target": "_blank"
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "mobile-actions",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "intro",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "consultation",
+          "text": "",
+          "links": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "sections": [
+        {
+          "id": "skip",
+          "text": "Skip to content",
+          "links": [
+            {
+              "text": "Skip to content",
+              "href": "#main",
+              "target": null
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "navigation",
+          "text": "Services Growth Engine™ Contact Book a Consultation",
+          "links": [
+            {
+              "text": "",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "hero",
+          "text": "CONSULTING · MARKETING · IT SOLUTIONS · INDIA Your business has the fuel. We create the spark. Business consulting, marketing and IT solutions under one roof, turning your potential into measurable, sustainable growth. Book a Consultation Explore Our Solutions THE SPARK · LIVE RENDER",
+          "links": [
+            {
+              "text": "Book a Consultation",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "Explore Our Solutions",
+              "href": "#services",
+              "target": null
+            }
+          ],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "problem",
+          "text": "WHAT YOU HAVE WHERE GROWTH STALLS 01 Product A great product, but poor marketing 02 People Strong people, but poor strategy 03 Capital Capital, but inefficient operations 04 Customers Customers, but weak retention 05 Technology Technology, but no commercialisation 06 Brand Brand awareness, but poor conversion",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "difference",
+          "text": "THE USUAL WAY · THREE PARTNERS TRADITIONAL CONSULTANT Strategy → Report HANDOFF · CONTEXT LOST TRADITIONAL AGENCY Marketing → Campaign HANDOFF · CONTEXT LOST TECHNOLOGY PROVIDER Technology → System THE IGNITRA WAY · ONE CONTINUOUS LOOP UNDERSTAND STRATEGISE BUILD EXECUTE MEASURE OPTIMISE SCALE",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "services",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "engine",
+          "text": "04 — HOW WE WORK Seven steps from potential to scale. Our signature Ignitra Growth Engine™. Each step is led by the right discipline. THE COMPOUNDING EFFECT HOVER A STAGE POTENTIAL + STRATEGY + EXECUTION Growth GROWTH + OPTIMISATION Momentum MOMENTUM + EFFICIENCY Scale SCALE + SUSTAINABILITY Long-term value",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "why",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "start",
+          "text": "ENGAGEMENT BRIEF IN PROGRESS ✓ 01 Your requirement CAPTURED ✓ 02 Business diagnosis DIAGNOSED ✓ 03 Recommended solution RECOMMENDED ✓ 04 The right scope SCOPED ✓ 05 The right investment PRICED RESULT A plan built for you, not a package.",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "cta",
+          "text": "",
+          "links": [],
+          "images": [
+            ""
+          ]
+        },
+        {
+          "id": "footer",
+          "text": "IGNITE POTENTIAL. POWER GROWTH. PAGES Home Services Growth Engine™ Contact CONTACT PHONE +91 93132 70003 WHATSAPP Chat with us on WhatsApp EMAIL info@ignitra.co.in OFFICE B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India Ignitra Business Solutions Private Limited · CIN: U82990GJ2026PTC182376 · Registered office: B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India · RoC-Ahmedabad · © 2026",
+          "links": [
+            {
+              "text": "Home",
+              "href": "#main",
+              "target": null
+            },
+            {
+              "text": "Services",
+              "href": "#services",
+              "target": null
+            },
+            {
+              "text": "Growth Engine™",
+              "href": "#engine",
+              "target": null
+            },
+            {
+              "text": "Contact",
+              "href": "#cta",
+              "target": null
+            },
+            {
+              "text": "+91 93132 70003",
+              "href": "tel:+919313270003",
+              "target": null
+            },
+            {
+              "text": "Chat with us on WhatsApp",
+              "href": "https://wa.me/919313270003",
+              "target": "_blank"
+            },
+            {
+              "text": "info@ignitra.co.in",
+              "href": "mailto:info@ignitra.co.in",
+              "target": null
+            },
+            {
+              "text": "B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad, Gandhinagar, Gujarat 382422, India",
+              "href": "https://www.google.com/maps/search/?api=1&query=B-202%2C%20Devsharnam%20Appt.%2C%20B%2Fh%20Parijati%20Bunglows%2C%20Uvarsad%2C%20Gandhinagar%2C%20Gujarat%20382422%2C%20India",
+              "target": "_blank"
+            }
+          ],
+          "images": [
+            "Ignitra"
+          ]
+        },
+        {
+          "id": "mobile-actions",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "intro",
+          "text": "",
+          "links": [],
+          "images": []
+        },
+        {
+          "id": "consultation",
+          "text": "",
+          "links": [],
+          "images": []
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "name": "consultation-open",
+      "items": [
+        {
+          "kind": "button",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "button",
+            "aria-label": "Close"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Book a consultation",
+          "displayText": "BOOK A CONSULTATION",
+          "visible": true
+        },
+        {
+          "kind": "h2",
+          "text": "Let's find your fuel.",
+          "displayText": "Let's find your fuel.",
+          "attributes": {},
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Tell us a little about your business. We'll come back to you to set up a call.",
+          "displayText": "Tell us a little about your business. We'll come back to you to set up a call.",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_REF_1"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_1:0"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_1:1"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_KEY"
+          },
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Full name *",
+          "displayText": "FULL NAME *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "name",
+            "required": "",
+            "minlength": "2",
+            "maxlength": "100",
+            "name": "name"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Email *",
+          "displayText": "EMAIL *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "email",
+            "autocomplete": "email",
+            "required": "",
+            "maxlength": "200",
+            "name": "email"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Phone / WhatsApp *",
+          "displayText": "PHONE / WHATSAPP *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "tel",
+            "autocomplete": "tel",
+            "inputmode": "tel",
+            "required": "",
+            "pattern": "\\+?[\\d\\s()\\-]{7,20}",
+            "placeholder": "+91",
+            "name": "phone"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Company",
+          "displayText": "COMPANY",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "organization",
+            "maxlength": "120",
+            "name": "company"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "What do you need help with? *",
+          "displayText": "WHAT DO YOU NEED HELP WITH? *",
+          "visible": true
+        },
+        {
+          "kind": "button",
+          "text": "Choose one",
+          "displayText": "Choose one",
+          "attributes": {
+            "type": "button",
+            "role": "combobox"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Consulting",
+          "displayText": "Consulting",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Strategy, market research, go-to-market",
+          "displayText": "Strategy, market research, go-to-market",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Marketing & Business Growth Strategy",
+          "displayText": "Marketing & Business Growth Strategy",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Brand, demand generation, campaigns",
+          "displayText": "Brand, demand generation, campaigns",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "IT Solutions",
+          "displayText": "IT Solutions",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "ERP, CRM, POS and AI solutions",
+          "displayText": "ERP, CRM, POS and AI solutions",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Not sure yet",
+          "displayText": "Not sure yet",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "We'll help you find the right fit",
+          "displayText": "We'll help you find the right fit",
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "service"
+          },
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Your goals or challenges",
+          "displayText": "YOUR GOALS OR CHALLENGES",
+          "visible": true
+        },
+        {
+          "kind": "textarea",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "name": "message",
+            "maxlength": "2000"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Website",
+          "displayText": "Website",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "off",
+            "name": "website"
+          },
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "startedAt"
+          },
+          "visible": false
+        },
+        {
+          "kind": "button",
+          "text": "Send request",
+          "displayText": "Send request",
+          "attributes": {
+            "type": "submit"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "We only use your details to respond to this request.",
+          "displayText": "We only use your details to respond to this request.",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "consultation-options",
+      "items": [
+        {
+          "kind": "button",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "button",
+            "aria-label": "Close"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Book a consultation",
+          "displayText": "BOOK A CONSULTATION",
+          "visible": true
+        },
+        {
+          "kind": "h2",
+          "text": "Let's find your fuel.",
+          "displayText": "Let's find your fuel.",
+          "attributes": {},
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Tell us a little about your business. We'll come back to you to set up a call.",
+          "displayText": "Tell us a little about your business. We'll come back to you to set up a call.",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_REF_1"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_1:0"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_1:1"
+          },
+          "visible": false
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "$ACTION_KEY"
+          },
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Full name *",
+          "displayText": "FULL NAME *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "name",
+            "required": "",
+            "minlength": "2",
+            "maxlength": "100",
+            "name": "name"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Email *",
+          "displayText": "EMAIL *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "email",
+            "autocomplete": "email",
+            "required": "",
+            "maxlength": "200",
+            "name": "email"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Phone / WhatsApp *",
+          "displayText": "PHONE / WHATSAPP *",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "tel",
+            "autocomplete": "tel",
+            "inputmode": "tel",
+            "required": "",
+            "pattern": "\\+?[\\d\\s()\\-]{7,20}",
+            "placeholder": "+91",
+            "name": "phone"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Company",
+          "displayText": "COMPANY",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "organization",
+            "maxlength": "120",
+            "name": "company"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "What do you need help with? *",
+          "displayText": "WHAT DO YOU NEED HELP WITH? *",
+          "visible": true
+        },
+        {
+          "kind": "button",
+          "text": "Choose one",
+          "displayText": "Choose one",
+          "attributes": {
+            "type": "button",
+            "role": "combobox"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Consulting",
+          "displayText": "Consulting",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy, market research, go-to-market",
+          "displayText": "Strategy, market research, go-to-market",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing & Business Growth Strategy",
+          "displayText": "Marketing & Business Growth Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Brand, demand generation, campaigns",
+          "displayText": "Brand, demand generation, campaigns",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "IT Solutions",
+          "displayText": "IT Solutions",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "ERP, CRM, POS and AI solutions",
+          "displayText": "ERP, CRM, POS and AI solutions",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Not sure yet",
+          "displayText": "Not sure yet",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "We'll help you find the right fit",
+          "displayText": "We'll help you find the right fit",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "service"
+          },
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Your goals or challenges",
+          "displayText": "YOUR GOALS OR CHALLENGES",
+          "visible": true
+        },
+        {
+          "kind": "textarea",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "name": "message",
+            "maxlength": "2000"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Website",
+          "displayText": "Website",
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "text",
+            "autocomplete": "off",
+            "name": "website"
+          },
+          "visible": true
+        },
+        {
+          "kind": "input",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "type": "hidden",
+            "name": "startedAt"
+          },
+          "visible": false
+        },
+        {
+          "kind": "button",
+          "text": "Send request",
+          "displayText": "Send request",
+          "attributes": {
+            "type": "submit"
+          },
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "We only use your details to respond to this request.",
+          "displayText": "We only use your details to respond to this request.",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "loop-1",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "01",
+          "displayText": "01",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Understand",
+          "displayText": "Understand",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Understand the business, market, customers, capabilities and opportunities.",
+          "displayText": "Understand the business, market, customers, capabilities and opportunities.",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "loop-2",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "02",
+          "displayText": "02",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Strategise",
+          "displayText": "Strategise",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Develop the strategy that activates the opportunity.",
+          "displayText": "Develop the strategy that activates the opportunity.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "loop-3",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "03",
+          "displayText": "03",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Build",
+          "displayText": "Build",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Build the marketing, technology and business systems for execution.",
+          "displayText": "Build the marketing, technology and business systems for execution.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "loop-4",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "04",
+          "displayText": "04",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Execute",
+          "displayText": "Execute",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Launch the strategy through marketing and technology.",
+          "displayText": "Launch the strategy through marketing and technology.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "loop-5",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "05",
+          "displayText": "05",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Measure",
+          "displayText": "Measure",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Track customers, revenue, market presence, efficiency and performance.",
+          "displayText": "Track customers, revenue, market presence, efficiency and performance.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "loop-6",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "06",
+          "displayText": "06",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Optimise",
+          "displayText": "Optimise",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Use data, technology and continuous improvement to strengthen performance.",
+          "displayText": "Use data, technology and continuous improvement to strengthen performance.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "loop-7",
+      "items": [
+        {
+          "kind": "text",
+          "text": "02 — The difference",
+          "displayText": "02 — THE DIFFERENCE",
+          "visible": false
+        },
+        {
+          "kind": "h2",
+          "text": "One partner for the whole growth journey.",
+          "displayText": "One partner for the whole growth journey.",
+          "attributes": {},
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "displayText": "Consultants deliver reports. Agencies run campaigns. Tech firms build systems. Ignitra connects strategy, execution, technology and measurement in one team.",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "The usual way · three partners",
+          "displayText": "THE USUAL WAY · THREE PARTNERS",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional consultant",
+          "displayText": "TRADITIONAL CONSULTANT",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Strategy",
+          "displayText": "Strategy",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Report",
+          "displayText": "Report",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Traditional agency",
+          "displayText": "TRADITIONAL AGENCY",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Marketing",
+          "displayText": "Marketing",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Campaign",
+          "displayText": "Campaign",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Handoff · context lost",
+          "displayText": "HANDOFF · CONTEXT LOST",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology provider",
+          "displayText": "TECHNOLOGY PROVIDER",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Technology",
+          "displayText": "Technology",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "→",
+          "displayText": "→",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "System",
+          "displayText": "System",
+          "visible": true
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": ""
+          },
+          "source": "/assets/ignitra-spark.png",
+          "width": 32,
+          "height": 27,
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "The Ignitra way · one continuous loop",
+          "displayText": "THE IGNITRA WAY · ONE CONTINUOUS LOOP",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "UNDERSTAND",
+          "displayText": "UNDERSTAND",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "STRATEGISE",
+          "displayText": "STRATEGISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "BUILD",
+          "displayText": "BUILD",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "EXECUTE",
+          "displayText": "EXECUTE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "MEASURE",
+          "displayText": "MEASURE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "OPTIMISE",
+          "displayText": "OPTIMISE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "SCALE",
+          "displayText": "SCALE",
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Stage",
+          "displayText": "STAGE",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "07",
+          "displayText": "07",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "/ 0",
+          "displayText": "/ 0",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "7",
+          "displayText": "7",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Scale",
+          "displayText": "Scale",
+          "visible": false
+        },
+        {
+          "kind": "text",
+          "text": "Create sustainable systems that support long-term growth.",
+          "displayText": "Create sustainable systems that support long-term growth.",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "mobile-menu",
+      "items": [
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": "Ignitra"
+          },
+          "source": "/assets/ignitra-logo-primary-silver.png",
+          "width": 140,
+          "height": 22,
+          "visible": false
+        },
+        {
+          "kind": "img",
+          "text": "",
+          "displayText": "",
+          "attributes": {
+            "alt": "Ignitra"
+          },
+          "source": "/assets/ignitra-logo-flat-on-light.png",
+          "width": 140,
+          "height": 22,
+          "visible": true
+        },
+        {
+          "kind": "button",
+          "text": "×",
+          "displayText": "×",
+          "attributes": {
+            "type": "button",
+            "aria-label": "Close menu"
+          },
+          "visible": true
+        },
+        {
+          "kind": "a",
+          "text": "Services",
+          "displayText": "Services",
+          "attributes": {
+            "href": "#services"
+          },
+          "images": [],
+          "visible": true
+        },
+        {
+          "kind": "a",
+          "text": "Growth Engine™",
+          "displayText": "Growth Engine™",
+          "attributes": {
+            "href": "#engine"
+          },
+          "images": [],
+          "visible": true
+        },
+        {
+          "kind": "a",
+          "text": "Contact",
+          "displayText": "Contact",
+          "attributes": {
+            "href": "#cta"
+          },
+          "images": [],
+          "visible": true
+        },
+        {
+          "kind": "text",
+          "text": "Ignite potential. Power growth.",
+          "displayText": "IGNITE POTENTIAL. POWER GROWTH.",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "head": {
+    "title": "Ignitra — Business Growth Consulting, Marketing & IT Solutions | India",
+    "lang": "en-IN",
+    "meta": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "name": "theme-color",
+        "content": "#000000"
+      },
+      {
+        "name": "color-scheme",
+        "content": "dark light"
+      },
+      {
+        "name": "description",
+        "content": "Ignitra is a business growth consultancy in India offering consulting, marketing and IT solutions that turn potential into measurable growth."
+      },
+      {
+        "name": "application-name",
+        "content": "Ignitra"
+      },
+      {
+        "name": "author",
+        "content": "Ignitra Business Solutions Private Limited"
+      },
+      {
+        "name": "keywords",
+        "content": "business growth consulting,business consulting India,marketing agency India,IT solutions India,go-to-market strategy,growth strategy,Ignitra Growth Engine"
+      },
+      {
+        "name": "creator",
+        "content": "Ignitra Business Solutions Private Limited"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "name": "googlebot",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "name": "format-detection",
+        "content": "telephone=no, address=no, email=no"
+      },
+      {
+        "property": "og:title",
+        "content": "Ignitra — Business Growth Consulting, Marketing & IT Solutions | India"
+      },
+      {
+        "property": "og:description",
+        "content": "Ignitra is a business growth consultancy in India offering consulting, marketing and IT solutions that turn potential into measurable growth."
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.ignitra.co.in"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Ignitra"
+      },
+      {
+        "property": "og:locale",
+        "content": "en_IN"
+      },
+      {
+        "property": "og:image",
+        "content": "https://www.ignitra.co.in/opengraph-image.png?opengraph-image.1pqgqjl0roe2v.png"
+      },
+      {
+        "property": "og:image:type",
+        "content": "image/png"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1200"
+      },
+      {
+        "property": "og:image:height",
+        "content": "630"
+      },
+      {
+        "property": "og:image:alt",
+        "content": "Ignitra — Ignite potential. Power growth."
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Ignitra — Business Growth Consulting, Marketing & IT Solutions | India"
+      },
+      {
+        "name": "twitter:description",
+        "content": "Ignitra is a business growth consultancy in India offering consulting, marketing and IT solutions that turn potential into measurable growth."
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://www.ignitra.co.in/opengraph-image.png?opengraph-image.1pqgqjl0roe2v.png"
+      },
+      {
+        "name": "twitter:image:alt",
+        "content": "Ignitra — Ignite potential. Power growth."
+      },
+      {
+        "name": "twitter:image:type",
+        "content": "image/png"
+      },
+      {
+        "name": "twitter:image:width",
+        "content": "1200"
+      },
+      {
+        "name": "twitter:image:height",
+        "content": "630"
+      }
+    ],
+    "links": [
+      {
+        "rel": "manifest",
+        "href": "/manifest.webmanifest"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.ignitra.co.in"
+      },
+      {
+        "rel": "icon",
+        "href": "/icon.png?icon.2nt099le97pjl.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-icon.png?apple-icon.0c69lnbpfq_d5.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+    ],
+    "structuredData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Ignitra",
+        "legalName": "Ignitra Business Solutions Private Limited",
+        "url": "https://www.ignitra.co.in",
+        "logo": "https://www.ignitra.co.in/assets/ignitra-logo-primary-silver.png",
+        "slogan": "Ignite potential. Power growth.",
+        "description": "Ignitra is a business growth consultancy in India offering consulting, marketing and IT solutions that turn potential into measurable growth.",
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        },
+        "knowsAbout": [
+          "Business consulting",
+          "Marketing & business growth strategy",
+          "IT solutions"
+        ],
+        "telephone": "+919313270003",
+        "email": "info@ignitra.co.in",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "B-202, Devsharnam Appt., B/h Parijati Bunglows, Uvarsad",
+          "addressLocality": "Gandhinagar",
+          "addressRegion": "Gujarat",
+          "postalCode": "382422",
+          "addressCountry": "IN"
+        },
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "CIN",
+          "value": "U82990GJ2026PTC182376"
+        }
+      }
+    ]
+  }
+}

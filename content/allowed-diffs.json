@@ -1,0 +1,14 @@
+{
+  "themeToggleAccessibleLabels": [
+    "Switch to light theme",
+    "Switch to dark theme"
+  ],
+  "technicalAttributes": [
+    "class",
+    "style",
+    "data-content-id",
+    "data-content-section",
+    "aria-pressed"
+  ],
+  "contentDifferences": []
+}

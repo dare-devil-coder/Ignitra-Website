@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /dev/
+
+Host: https://www.ignitra.co.in
+Sitemap: https://www.ignitra.co.in/sitemap.xml

@@ -1,0 +1,10 @@
+﻿import {chromium} from 'playwright';
+import {mkdir,writeFile} from 'node:fs/promises';
+const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
+await p.goto('https://www.ignitra.co.in/',{waitUntil:'networkidle'});await p.waitForTimeout(2000);
+console.log(await p.locator('body').evaluate(e=>[...e.children].map(x=>({tag:x.tagName,id:x.id,class:x.className,text:x.textContent?.slice(0,80)}))));
+console.log('loop',await p.locator('#difference [role]').evaluateAll(es=>es.map(e=>({tag:e.tagName,role:e.getAttribute('role'),label:e.getAttribute('aria-label')}))));
+console.log('engine',await p.locator('#engine').innerText());
+console.log('brief',await p.locator('#start').innerText());
+await writeFile('output/legacy-reduced.html',await p.content());
+await mkdir('docs/reference-screenshots',{recursive:true});await p.emulateMedia({reducedMotion:'no-preference'});await p.goto('https://www.atomikgrowth.com/',{waitUntil:'domcontentloaded'});await p.waitForTimeout(4000);await p.screenshot({path:'docs/reference-screenshots/hero-1440.png'});await p.mouse.wheel(0,850);await p.waitForTimeout(1300);await p.screenshot({path:'docs/reference-screenshots/services-1440.png'});await p.mouse.wheel(0,1000);await p.waitForTimeout(1300);await p.screenshot({path:'docs/reference-screenshots/mid-1440.png'});console.log('REFERENCE',await p.title());await b.close();

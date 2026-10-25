@@ -1,0 +1,313 @@
+[
+  {
+    "source": "https://www.ignitra.co.in/assets/ignitra-logo-primary-silver.png",
+    "local": "public/assets/ignitra-logo-primary-silver.png",
+    "url": "/assets/ignitra-logo-primary-silver.png",
+    "bytes": 71841,
+    "sha256": "74b86968dad9670648aea1637589fe6d22899bc78970554c0b005189d6f03cd5",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1044,
+      "height": 170
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/assets/ignitra-logo-flat-on-light.png",
+    "local": "public/assets/ignitra-logo-flat-on-light.png",
+    "url": "/assets/ignitra-logo-flat-on-light.png",
+    "bytes": 56184,
+    "sha256": "a3aa0f04e40929a2c01897400d2b35302af4146ef47dbd42280e2eb747f13919",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1044,
+      "height": 170
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/hero-dark.webp",
+    "local": "public/assets/hero-dark.webp",
+    "url": "/assets/hero-dark.webp",
+    "bytes": 30286,
+    "sha256": "4fe048d6d07144befcfb567dd8968d2fa9065255ff4c41f8fd7be134982fa689",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1600,
+      "height": 800
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/hero-light.webp",
+    "local": "public/assets/hero-light.webp",
+    "url": "/assets/hero-light.webp",
+    "bytes": 27740,
+    "sha256": "88b38d2f7160153d7b0ea3bfaed294a0387dbc32136246e7b4c7e277fe549e95",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1600,
+      "height": 800
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/assets/ignitra-spark.png",
+    "local": "public/assets/ignitra-spark.png",
+    "url": "/assets/ignitra-spark.png",
+    "bytes": 19251,
+    "sha256": "d6fc125d13abfc004eef45994606e42b6093ab983a1d398ca5291431cd2bb34f",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 328,
+      "height": 272
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/engine-dark.webp",
+    "local": "public/assets/engine-dark.webp",
+    "url": "/assets/engine-dark.webp",
+    "bytes": 29192,
+    "sha256": "0f2a22a1c981a3a31259725ec5eb830566522dd5c54388dde34d58a3a79e406c",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1600,
+      "height": 800
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/engine-light.webp",
+    "local": "public/assets/engine-light.webp",
+    "url": "/assets/engine-light.webp",
+    "bytes": 23670,
+    "sha256": "348baafb9f1fa4537712e307b1126290fde2b1ed3f8a129a9f6317fd1d43b504",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1600,
+      "height": 800
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-tune.webp",
+    "local": "public/assets/why-tune.webp",
+    "url": "/assets/why-tune.webp",
+    "bytes": 7892,
+    "sha256": "36436095e47088b5db8b39d5e26bd24795e40dc6ab2eaa5be6c8b3cc64eec594",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-route.webp",
+    "local": "public/assets/why-route.webp",
+    "url": "/assets/why-route.webp",
+    "bytes": 19634,
+    "sha256": "1e99aef883b6345f0580864c2b4b81127810acfd9fc96b713e86def5432f7c5c",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-market.webp",
+    "local": "public/assets/why-market.webp",
+    "url": "/assets/why-market.webp",
+    "bytes": 14866,
+    "sha256": "b64fadad5d3d0972258d8d1400bdd5ff11ebe4c48e220bd440013f22a3b9a054",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-chip.webp",
+    "local": "public/assets/why-chip.webp",
+    "url": "/assets/why-chip.webp",
+    "bytes": 16720,
+    "sha256": "c8dd56bcfe286a3b58b911ec305a615f818dc479af6127a5065674a8a5016480",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-merge.webp",
+    "local": "public/assets/why-merge.webp",
+    "url": "/assets/why-merge.webp",
+    "bytes": 18898,
+    "sha256": "6b6ca03838f26704f1509edc4f5982d118d22c70756983aa7a89671aea7d4778",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-speed.webp",
+    "local": "public/assets/why-speed.webp",
+    "url": "/assets/why-speed.webp",
+    "bytes": 9590,
+    "sha256": "499846e0fa57c15b11d7551d989f30bce06b7d1fd3cbb502ba7c5625c89279bc",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/renders/why-e2e.webp",
+    "local": "public/assets/why-e2e.webp",
+    "url": "/assets/why-e2e.webp",
+    "bytes": 8324,
+    "sha256": "90793240424c09d214f5295e23579ed3ddb4f0bd893989dcb3be68546d6956d5",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 640,
+      "height": 320
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/archivo_expanded-s.p.2_qy8wb4tup4i.woff2",
+    "local": "public/assets/fonts/archivo_expanded-s.p.2_qy8wb4tup4i.woff2",
+    "url": "/assets/fonts/archivo_expanded-s.p.2_qy8wb4tup4i.woff2",
+    "bytes": 29240,
+    "sha256": "dce148c614d6a6899ed818f5fca78f4399b86f100a5a4b86d4a2b1657ac2507e",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/inter-s.p.392mse19q3cb2.woff2",
+    "local": "public/assets/fonts/inter-s.p.392mse19q3cb2.woff2",
+    "url": "/assets/fonts/inter-s.p.392mse19q3cb2.woff2",
+    "bytes": 42384,
+    "sha256": "aa91028fce25a61c302df7e87f12f5bb4d9e0e13db2e7769940b1480a5cd6281",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/5e05ae5b48faa55e-s.31-2bzhq1gx_9.woff2",
+    "local": "public/assets/fonts/5e05ae5b48faa55e-s.31-2bzhq1gx_9.woff2",
+    "url": "/assets/fonts/5e05ae5b48faa55e-s.31-2bzhq1gx_9.woff2",
+    "bytes": 4336,
+    "sha256": "311098be73eac339128f0b5a6e33d72645b6f87488541fdf467c402152d297fd",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/a7afbb44bec2bb18-s.3xauquyg2sixn.woff2",
+    "local": "public/assets/fonts/a7afbb44bec2bb18-s.3xauquyg2sixn.woff2",
+    "url": "/assets/fonts/a7afbb44bec2bb18-s.3xauquyg2sixn.woff2",
+    "bytes": 5500,
+    "sha256": "d524dc8ff6dbf7ed69772f3b2ff4affaf5a89b5762b270e36c3f21da0d4e39f5",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/02263ebadd758ea4-s.2taws-qdxmzlf.woff2",
+    "local": "public/assets/fonts/02263ebadd758ea4-s.2taws-qdxmzlf.woff2",
+    "url": "/assets/fonts/02263ebadd758ea4-s.2taws-qdxmzlf.woff2",
+    "bytes": 4036,
+    "sha256": "b2529fba93fd07a50ffb8fc3d103eb04b0c298d4f6564d2833c44fde286de7e4",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/68757d6cddeff913-s.0htwiiqufp3l9.woff2",
+    "local": "public/assets/fonts/68757d6cddeff913-s.0htwiiqufp3l9.woff2",
+    "url": "/assets/fonts/68757d6cddeff913-s.0htwiiqufp3l9.woff2",
+    "bytes": 8848,
+    "sha256": "77f03e26f981c582bdba3a7abed4baa2d3149211c01366bb3ab3ba7622ec4ae5",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/_next/static/media/effe91970fc4db64-s.p.28xcb7557rbh2.woff2",
+    "local": "public/assets/fonts/effe91970fc4db64-s.p.28xcb7557rbh2.woff2",
+    "url": "/assets/fonts/effe91970fc4db64-s.p.28xcb7557rbh2.woff2",
+    "bytes": 10060,
+    "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0",
+    "license": "SIL Open Font License 1.1; upstream family license files under public/assets/fonts/licenses/.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/manifest.webmanifest",
+    "local": "public/manifest.webmanifest",
+    "url": "/manifest.webmanifest",
+    "bytes": 421,
+    "sha256": "083ce5a7f21ff22c2e5aa8e565c84c7407745425a3667d05baa63acfa07f713a",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/icon.png?icon.2nt099le97pjl.png",
+    "local": "public/icon.png",
+    "url": "/icon.png",
+    "bytes": 10283,
+    "sha256": "d300f432bc6879d6a35152bc0c0a836ac35e43e8f848e0d01a6ba911656baf33",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 192,
+      "height": 192
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/apple-icon.png?apple-icon.0c69lnbpfq_d5.png",
+    "local": "public/apple-icon.png",
+    "url": "/apple-icon.png",
+    "bytes": 21131,
+    "sha256": "4fc6cc8499630270c2141af9aeb4c0f36781c86eeaf0d30f15daea37d9b12d26",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 180,
+      "height": 180
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/opengraph-image.png",
+    "local": "public/opengraph-image.png",
+    "url": "/opengraph-image.png",
+    "bytes": 23479,
+    "sha256": "8efa675abab4831de1323b997694e456c94d003e41591d12e10ef166b0d89a74",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4.",
+    "dimensions": {
+      "width": 1200,
+      "height": 630
+    }
+  },
+  {
+    "source": "https://www.ignitra.co.in/robots.txt",
+    "local": "public/robots.txt",
+    "url": "/robots.txt",
+    "bytes": 119,
+    "sha256": "b8a8c9c844f9049c0a845b036a90600d5b7c880a535de0d9d1cace6843ec1dfd",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  },
+  {
+    "source": "https://www.ignitra.co.in/sitemap.xml",
+    "local": "public/sitemap.xml",
+    "url": "/sitemap.xml",
+    "bytes": 216,
+    "sha256": "cdf28857c4f4f999b5e5e812e39def06e804a99f97ef7b4f4ff980ba2f6c6658",
+    "license": "Legacy brand asset supplied by user via website; redistribution license not independently supplied.",
+    "optimization": "Original bytes preserved for Stage 1; optimization deferred to Stage 4."
+  }
+]
