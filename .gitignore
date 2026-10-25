@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.npm-cache/
+.env
+.env.*
+!.env.example
+*.log
+output/
+test-results/
+playwright-report/
+.lighthouseci/
+.superdesign-auth/
+*.tsbuildinfo
+docs/legacy-source/*.js
+docs/legacy-source/*.css
+docs/legacy-source/index.html
