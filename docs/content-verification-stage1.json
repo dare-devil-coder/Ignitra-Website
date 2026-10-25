@@ -1,0 +1,27 @@
+{
+  "stage": 1,
+  "scope": "Real rendered baseline at mobile/desktop in both themes, reduced motion; independent legacy profiles. Interactive implementation tests start in Stage 2.",
+  "checks": [
+    {
+      "width": 375,
+      "theme": "dark",
+      "result": "PASS"
+    },
+    {
+      "width": 375,
+      "theme": "light",
+      "result": "PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "result": "PASS"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "result": "PASS"
+    }
+  ],
+  "diffs": []
+}

@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.npm-cache
+output
+docs/legacy-source
+/content/
+/public/
+package-lock.json

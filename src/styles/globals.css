@@ -1,0 +1,106 @@
+@import 'tailwindcss' source('../');
+@import './tokens.css';
+@theme inline {
+  --color-background: var(--bg);
+  --color-surface: var(--surface);
+  --color-foreground: var(--text);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-on-accent: var(--on-accent);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  background: var(--bg);
+  color: var(--text);
+  scrollbar-color: var(--accent) var(--surface);
+}
+body {
+  margin: 0;
+  font-family: var(--font-body), sans-serif;
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+}
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px var(--focus-keyline);
+}
+a {
+  color: var(--accent-text);
+  text-underline-offset: 0.2em;
+}
+button,
+input,
+textarea {
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  min-height: 44px;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: var(--tracking-display);
+  line-height: 1.05;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+h3 {
+  font-size: 1.35rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Temporary content proof, deliberately not the Stage 2 visual layout. */
+.content-section {
+  max-width: var(--container);
+  margin-inline: auto;
+  padding: var(--space-3) var(--gutter);
+}
+.content-section:has(.content-record:not([hidden])) {
+  border-bottom: 1px solid var(--border);
+}
+.content-record {
+  display: none;
+  max-width: var(--measure);
+  margin-block: var(--space-1);
+}
+img.content-record {
+  max-width: 320px;
+}
+.logo-light {
+  display: none;
+}
+html[data-theme='light'] .logo-dark {
+  display: none;
+}
+html[data-theme='light'] .logo-light {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  html[data-theme='dark'] .show-375-dark,
+  html[data-theme='light'] .show-375-light {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  html[data-theme='dark'] .show-1440-dark,
+  html[data-theme='light'] .show-1440-light {
+    display: block;
+  }
+}

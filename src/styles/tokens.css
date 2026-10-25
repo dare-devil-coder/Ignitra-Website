@@ -1,0 +1,100 @@
+:root {
+  --ink: #1b1b1b;
+  --graphite: #323232;
+  --cream: #ffe7d0;
+  --ember: #fc6e20;
+  --cream-light: color-mix(in srgb, var(--cream) 50%, white);
+  --cream-deep: color-mix(in srgb, var(--cream) 95%, var(--ember));
+  --ember-deep: color-mix(in srgb, var(--ember) 58%, var(--ink));
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --container: 80rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --section-space: clamp(5rem, 12vw, 10rem);
+  --radius-card: 1.5rem;
+  --radius-media: 1.75rem;
+  --radius-pill: 999px;
+  --type-display: clamp(3rem, 7vw, 9rem);
+  --type-heading: clamp(2rem, 4vw, 4.5rem);
+  --type-body: clamp(1rem, 1.2vw, 1.125rem);
+  --leading-display: 1;
+  --leading-body: 1.6;
+  --tracking-display: -0.02em;
+  --measure: 65ch;
+  --duration-micro: 0.25s;
+  --duration-reveal: 0.95s;
+  --duration-intro: 1.8s;
+  --duration-theme: 0.35s;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --stagger: 0.08s;
+  --reveal-distance: 40px;
+  --z-content: 1;
+  --z-nav: 30;
+  --z-progress: 40;
+  --z-menu: 50;
+  --z-dialog: 60;
+  --z-intro: 70;
+  --z-cursor: 80;
+}
+:root,
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: var(--ink);
+  --surface: var(--graphite);
+  --surface-alt: var(--graphite);
+  --text: var(--cream);
+  --text-muted: color-mix(in srgb, var(--cream) 78%, var(--ink));
+  --text-meta: color-mix(in srgb, var(--cream) 60%, var(--ink));
+  --accent: var(--ember);
+  --accent-text: var(--ember);
+  --on-accent: var(--ink);
+  --border: color-mix(in srgb, var(--cream) 12%, transparent);
+  --border-strong: color-mix(in srgb, var(--cream) 30%, transparent);
+  --inverted-section: var(--cream);
+  --inverted-text: var(--ink);
+  --shadow: 0 12px 32px color-mix(in srgb, var(--ink) 40%, transparent);
+  --glow-opacity: 0.15;
+  --grain-opacity: 0.035;
+  --grain-blend: soft-light;
+  --media-overlay: linear-gradient(transparent, var(--ink));
+  --nav-surface: color-mix(in srgb, var(--graphite) 70%, transparent);
+  --focus-keyline: transparent;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: var(--cream);
+  --surface: var(--cream-light);
+  --surface-alt: var(--cream-deep);
+  --text: var(--ink);
+  --text-muted: color-mix(in srgb, var(--ink) 75%, var(--cream));
+  --text-meta: color-mix(in srgb, var(--ink) 70%, var(--cream));
+  --accent: var(--ember);
+  --accent-text: var(--ember-deep);
+  --on-accent: var(--ink);
+  --border: color-mix(in srgb, var(--ink) 12%, transparent);
+  --border-strong: color-mix(in srgb, var(--ink) 30%, transparent);
+  --inverted-section: var(--ink);
+  --inverted-text: var(--cream);
+  --shadow: 0 12px 32px color-mix(in srgb, var(--ink) 12%, transparent);
+  --glow-opacity: 0.06;
+  --grain-opacity: 0.02;
+  --grain-blend: multiply;
+  --media-overlay: linear-gradient(transparent, var(--cream));
+  --nav-surface: color-mix(in srgb, var(--cream-light) 90%, transparent);
+  --focus-keyline: var(--ink);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-micro: 0s;
+    --duration-reveal: 0s;
+    --duration-intro: 0s;
+    --duration-theme: 0s;
+    --stagger: 0s;
+    --reveal-distance: 0px;
+  }
+}
