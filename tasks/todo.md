@@ -7,5 +7,5 @@
 - [x] Independent UI review and design documentation
 - [x] Stage 2 handoff approved; user explicitly deferred live delivery until before launch
 - [ ] Before launch: real consultation endpoint, server-error contract and delivery verification (owner configuration needed)
-- [ ] Stage 3 scroll/motion/3D on GPT-6-Astra / High after the user switches models and says continue stage 3
+- [x] Stage 3 scroll/motion/3D, both content gates, browser evidence and verified handoff
 - [ ] Stage 4 final QA, measurements and report

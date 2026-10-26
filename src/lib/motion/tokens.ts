@@ -1,4 +1,4 @@
-// Stage 3 owns animation implementation; no motion libraries are loaded yet.
+// Shared timing contract for the lazily loaded Stage 3 motion system.
 export const motion = {
   ease: 'power3.out',
   easeInOut: 'power3.inOut',

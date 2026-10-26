@@ -1,4 +1,6 @@
 'use client';
+import { switchTheme } from '@/lib/theme/transition';
+
 import { useSyncExternalStore } from 'react';
 import { themeLabels } from '@/lib/content';
 const subscribe = (callback: () => void) => {
@@ -15,15 +17,7 @@ export function ThemeToggle() {
       aria-label={light ? themeLabels.dark : themeLabels.light}
       title={light ? themeLabels.dark : themeLabels.light}
       aria-pressed={light}
-      onClick={() => {
-        const next = light ? 'dark' : 'light';
-        document.documentElement.dataset.theme = next;
-        document.documentElement.style.colorScheme = next;
-        try {
-          localStorage.setItem('ignitra-theme', next);
-        } catch {}
-        window.dispatchEvent(new Event('ignitra-theme-change'));
-      }}
+      onClick={(event) => switchTheme(event.currentTarget)}
     >
       <svg
         aria-hidden="true"

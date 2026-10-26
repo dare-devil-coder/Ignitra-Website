@@ -1,3 +1,4 @@
+import { MotionRoot } from '@/components/layout/MotionRoot';
 import { ContentLink } from '@/components/ui/Primitives';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
@@ -31,6 +32,7 @@ export default function Home() {
       </main>
       <Footer />
       <Consultation />
+      <MotionRoot />
     </>
   );
 }

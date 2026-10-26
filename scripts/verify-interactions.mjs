@@ -1,6 +1,17 @@
 import assert from 'node:assert/strict';
 const norm = (s) => s.replace(/\s+/g, ' ').trim();
 async function observed(locator) {
+  // Compare settled CSS interaction states, including delayed menu entries.
+  await locator.evaluate(async (root) => {
+    await Promise.all(
+      root
+        .getAnimations({ subtree: true })
+        .filter(
+          (animation) => animation.effect?.getTiming().iterations !== Infinity,
+        )
+        .map((animation) => animation.finished.catch(() => {})),
+    );
+  });
   return locator.evaluate((root) => {
     const norm = (s) => s.replace(/\s+/g, ' ').trim();
     const visible = (e) => {
@@ -76,6 +87,10 @@ export async function verifyInteractions(page, snapshot, profile, allow) {
     assert.equal(await loop.locator('[aria-pressed=true]').count(), 1);
     passed.push('loop-' + (index + 1));
   }
+  await page.evaluate(() => scrollTo(0, 0));
+  await page.waitForFunction(
+    () => document.querySelector('.nav-wrap').getBoundingClientRect().top >= 0,
+  );
   await page
     .getByRole('link', { name: 'Book a Consultation', exact: true })
     .first()
@@ -178,6 +193,10 @@ export async function verifyInteractions(page, snapshot, profile, allow) {
   const toggle = page.locator('.nav-pill .theme-toggle');
   await toggle.click();
   const next = profile.theme === 'dark' ? 'light' : 'dark';
+  await page.waitForFunction(
+    (next) => document.documentElement.dataset.theme === next,
+    next,
+  );
   assert.equal(await page.locator('html').getAttribute('data-theme'), next);
   assert.equal(
     await toggle.getAttribute('aria-pressed'),

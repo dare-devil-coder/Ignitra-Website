@@ -60,7 +60,7 @@ export function Difference() {
             ))}
           </div>
           {details && (
-            <div className="loop-detail" data-loop-detail>
+            <div key={selected} className="loop-detail" data-loop-detail>
               <p className="meta">
                 {details.slice(0, 4).map((d, i) => (
                   <span key={i}>

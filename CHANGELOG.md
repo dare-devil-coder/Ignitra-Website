@@ -18,3 +18,11 @@
 - Verified fourteen browser tests, six mutation tests, build/lint/types/format and four zero-diff content profiles. Independent UI reviewer disposition: ship at UI scope.
 - Consultation delivery remains disabled until the owner supplies an approved replacement endpoint; user confirmed original source is unavailable.
 - User explicitly deferred live consultation delivery until before launch and approved the Stage 3 handoff; Stage 2 closed with that dependency documented.
+
+## Stage 3 — Motion, scroll and 3D
+
+- Added a lazy GSAP/Lenis lifecycle, bounded hero/engine pinning, masked heading and section/image reveals, page progress, cursor/magnetic controls and motion feedback.
+- Independently authored a 24 KB meshopt rocket with theme-aware lighting, desktop policy, offscreen pause, error fallbacks and resource cleanup. Retained original posters and all locked content.
+- Added circular View Transitions theme switching, plain color fallback and reduced-motion instant switching.
+- Added normal-motion content checks and browser lifecycle/fallback regression tests. Corrected navigation threshold behavior exposed by testing; verifier now awaits settled interaction animations without relaxing comparisons.
+- Documented the compatible Three 0.182.0 pin and every implemented/skipped effect. Live consultation delivery remains deferred until before launch.

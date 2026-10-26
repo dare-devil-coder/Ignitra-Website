@@ -53,3 +53,8 @@ Source bytes are preserved in Stage 1. All production references are local. Orig
 - public/opengraph-image.png: 1200 × 630; 23479 bytes.
 
 No copied image exceeds 100 KB. Do not enlarge logos beyond native resolution. Keep card posters within their original dimensions. Original pixels remain unchanged; final media optimization is Stage 4.
+
+## Stage 3 owned assets
+
+- public/assets/models/ignitra-rocket.glb: 24,260 bytes; independently authored low-poly geometry via scripts/build-rocket.mjs, no legacy geometry/code or external asset license dependency. Project-owned generated asset; no separate distribution license was supplied. meshopt compression, deduplication and pruning; no textures. Raw export 119,500 bytes. Original posters retained for fallback.
+- public/assets/grain.png: 13200 bytes, 96 × 96; deterministically generated ink/alpha noise for this project, no stock source. Theme opacity/blend applied in CSS.

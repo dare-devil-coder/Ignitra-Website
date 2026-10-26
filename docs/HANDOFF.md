@@ -1,72 +1,74 @@
-# Handoff — Stage 2 complete; Stage 3 ready
+# Handoff — Stage 3 complete; Stage 4 ready
 
 ## Read first
 
-AGENTS.md, docs/SECTION_MAP.md, content/site-content.json, docs/CONTENT_LOCK.md, docs/DESIGN.md, docs/CONSULTATION.md and tasks/plan.md. Current stage/model: Stage 2 / GPT-6.1-Sol. The user explicitly instructed “Defer delivery; hand off to Stage 3.” Stage 2 is closed with live delivery deferred until before launch. Begin Stage 3 only after the user switches to GPT-6-Astra / High and requests it.
+Read AGENTS.md, this file, docs/SECTION_MAP.md and content/site-content.json before code. Then read docs/MOTION.md, docs/CONTENT_LOCK.md, docs/DESIGN.md, docs/CONSULTATION.md and tasks/plan.md. Stage 3 was requested on GPT-6-Astra / High; runtime variant is not independently exposed. Next stage is Stage 4 on GPT-6.1-Sol, only after user handoff.
 
 ## Done
 
-Stage 1 audit/content lock/scaffold remain intact. The temporary content ledger was replaced by new responsive layouts for all eight original main sections, floating navigation, mobile menu, footer/sticky actions and consultation dialog in both themes. Every text/attribute/asset comes through the typed content helper. Nav/CTA anchors retain literal hrefs; consultation actions open the modal. Original fonts/assets and source order are preserved.
+Stage 1 audit/content lock/scaffold and Stage 2 responsive UI/interactions remain intact. Stage 3 adds lazy GSAP/ScrollTrigger and Lenis, masked heading/section/image reveals, bounded hero hold and engine rail pinning, page progress, additive fine-pointer cursor, magnetic hero/final primary CTAs, menu/dialog/loop feedback, hero glow/trails and theme-tuned grain. A newly authored 24,260-byte meshopt GLB provides the original rocket signature without porting legacy geometry/code. Eligible desktops get transparent R3F canvases; mobile/low-power/reduced-motion/unavailable WebGL/model failure get original theme posters. Intersection/document visibility pauses rendering; cleanup disposes scene resources. Theme transitions use circular View Transitions, a color fallback and instant reduced-motion changes without resetting scene/scroll state.
 
-Client interactions implemented: persistent icon theme controls with before-paint bootstrap, system default and blocked-storage fallback; seven-stage growth loop selection; native modal/menu focus wrapping, Escape/close and focus return; accessible inline service listbox; original form constraints, pending lock, acknowledged success and retry without false success. No GSAP/Lenis/Three runtime imports, intro or scroll choreography yet.
+All source copy, order, links, alt strings, metadata, original fonts and accessibility records remain unchanged. Both immutable hashes and the phone-pattern exception remain exactly as Stage 2. The scene's clipped semantic posters retain original alt attributes and layout dimensions. No count-up statistics, marquee, FAQ or route transitions were fabricated: see the full 17-effect applicability list in MOTION.md.
 
-User explicitly approved correcting the legacy phone pattern (2026-10-25). Exact original/new pair and authorization are in content/allowed-diffs.json. All source records and independent snapshots remain unchanged; only UI labels/phone override were added outside source records. records-lock.sha256 additionally protects original page/state/client-message/accessibility data from ad77597. Never alter either hash to pass tests.
+## Verification
 
-## Validation
+See VERIFICATION_STAGE3.md, UI_REVIEW_STAGE3.md, DESIGN_STAGE3_REVIEW.md, content-verification-stage3-reduced.json, content-verification-stage3-motion.json and stage3-capture-report.json. Build/lint/types/format and six mutation tests passed; all 21 browser tests passed. Reduced and normal motion comparisons have zero differences across four profiles plus actual interactions. Independent visual finish reviewer: ship, no material visual fixes at reviewed scope. No Lighthouse, 60fps or full accessibility certification is claimed yet.
 
-Optimized static build, lint, strict types, formatting, 6 mutation tests and 14 browser tests pass. Rendered verify-content reports zero differences in mobile/desktop dark/light plus actual loop/menu/dialog/field/selection/theme comparisons. One explicit approved phone attribute correction is applied; no text exceptions. Screenshots include fully loaded media at 375/768/1440/1920 both themes plus open menu/dialog/options states. Independent screenshot UI reviewer: ship, no material UI fixes remaining at that scope. Design documenter completed. See VERIFICATION_STAGE2.md and persisted JSON reports.
+The standalone scripts hit a Windows temp-profile removal stall after passing their assertions. scripts/evidence-browser.mjs now uses dedicated output/browser-profiles/<task> and output/browser-artifacts/<task> directories with a persistent owner context; website tests still use isolated incognito contexts. The smoke close and both final content-verification modes exited cleanly with code 0. Do not reopen personal Chrome profiles or weaken comparisons to bypass cleanup.
 
-Local mock delivery tests pass required fields/service, pending/failure/no false success/retry/payload/ack success. They use intercepted loopback requests only and restore the endpoint-free production build. Normal-page theme tests have zero console errors/warnings. The mocked 422 is expected failure-path evidence. No live lead was sent.
+## Decisions and known limits
+
+- Three/@types are pinned to 0.182.0: R3F 9.8.2 still uses Clock, which warns in >=0.183. No warning suppression/vendor patch. Production audit has zero advisories; existing 16 dev-only LHCI advisories remain Stage 4 review.
+- No public legacy GLB existed. scripts/build-rocket.mjs is independent authored geometry; regenerate with npm run build:rocket. Exact final-toolchain regeneration was checked. Local untextured geometry needs no texture conversion.
+- One scoped runtime owns teardown; responsive matchMedia and live reduced-motion changes revert pinning, styles, listeners and split wrappers. Avoid duplicate tickers or independent ScrollTrigger owners.
+- Desktop eligibility is a practical heuristic, not a measured performance guarantee. DPR max 1.5; renderer pauses offscreen/hidden. Keep Stage 4's measurements honest.
+- Full-page captures can exercise the supported poster path; use separate hero/engine viewport captures to assess live 3D. Capture scripts scroll/settle real reveals before full-page images.
+- Original postal spellings, year and touch-visible hover hint remain locked. No source-content corrections beyond the approved phone pattern.
 
 ## Deferred launch dependency
 
-The user confirmed there is no original website source. No approved replacement consultation endpoint/service configuration is available. Production Send request is deliberately disabled when NEXT_PUBLIC_CONSULTATION_ENDPOINT is empty; do not fake success or replay the old private action ID. See CONSULTATION.md for the JSON response contract and unresolved server-error copy/spam/delivery requirements. Obtain the owner endpoint/configuration, implement its adapter/error catalog as needed, run local tests and verify delivery only with explicit authorization for a live test. The user explicitly deferred this work to before launch. It does not block Stage 3, but real delivery remains unimplemented and must not be reported as working. Keep Send request disabled until configured and verified.
-
-Original postal spellings/year/touch hint are retained; do not silently edit. Dev-only Lighthouse dependency advisories from Stage 1 still need review in Stage 4; production audit had zero vulnerabilities. Superdesign authentication now works; Stage 2 used free inspiration search, no paid generation or publishing.
+The user confirmed no original source/backend is available and explicitly said “Defer delivery; hand off to Stage 3.” No approved replacement endpoint exists. Production Send remains disabled with an empty NEXT_PUBLIC_CONSULTATION_ENDPOINT. This does not block Stage 4, but real sending is unimplemented. Before launch obtain an approved endpoint/service, its error catalog/spam/CORS/privacy configuration, implement its adapter as needed and verify real delivery only with explicit authorization for a live test. Do not fake success or replay the old deployment-specific Server Action. See CONSULTATION.md. No live lead was sent.
 
 ## File map
 
-- src/app: homepage and unchanged locked SEO/font root.
-- src/components/ui/Primitives.tsx: Container, Section, SectionHeader, Copy, Card, media and links/icons.
-- src/components/sections/Sections.tsx: Hero, Problem, Services, Engine, Why, Start, CTA. Difference.tsx owns loop selection.
-- src/components/layout: Navigation, Footer, ThemeToggle, Consultation.
-- src/lib/content/index.ts: sole typed JSON/asset/state/accessibility access.
-- src/lib/accessibility/dialog.ts: reusable modal Tab/Shift+Tab wrap.
-- src/lib/theme/bootstrap.ts: stored/system theme before paint.
-- src/lib/motion/tokens.ts: future animation contract only; future scene belongs in src/components/scene.
-- src/styles: theme/color/motion variables and responsive UI styles. Desktop hero uses 12 columns (8+4), mobile spans the row.
-- content: original records, immutable snapshots and locks; narrowly approved phone correction.
-- public/assets: locally copied fonts/logos/rocket/reason posters; legacy code excluded.
-- scripts/verify-content.mjs + verify-interactions.mjs: immutable data and actual browser comparisons.
-- scripts/test-delivery.mjs: temporary local endpoint build/intercepted QA/finally production rebuild.
-- tests/visual: eight full-page image/overflow captures plus six theme/keyboard/phone checks.
-- docs: audit/maps/design/skills/reports, stage2-screenshots, and historical Stage 1 evidence. Final Stage 4 screenshots belong in docs/after.
+- src/app: static homepage composition and unchanged locked SEO/font root.
+- src/components/{ui,sections,layout}: Stage 2 UI plus MotionRoot and theme control wiring.
+- src/components/scene: gated RocketIsland, error boundary and RocketCanvas with theme lighting/resource cleanup.
+- src/lib/motion: tokens, scene numeric channels and scoped GSAP/Lenis runtime.
+- src/lib/theme: before-paint bootstrap and circular/fallback theme transition.
+- src/lib/content: sole typed JSON copy/attribute access. src/lib/accessibility: dialog focus trap.
+- src/styles: palette/timing tokens, static globals and motion.css.
+- public/assets/models/ignitra-rocket.glb: owned compressed model. public/assets/grain.png: owned ink-alpha texture. Other assets/fonts are unchanged source copies.
+- scripts/evidence-browser.mjs: owned browser profile helper. verify-content.mjs and verify-interactions.mjs: unchanged comparisons plus normal-motion settling. build-rocket.mjs: asset generation. capture-motion.mjs: stage evidence. test-delivery.mjs: local intercepted delivery QA.
+- tests/visual/motion.spec.ts: seven motion lifecycle/pin/theme/fallback tests; existing baseline/theme tests preserved.
+- content: locked records/baselines/hashes and approved phone-only technical exception.
+- docs/stage3-screenshots + stage3-scroll.webm: current motion evidence. docs/after is reserved for final Stage 4 captures. Historical source and Stage 1/2 evidence remain.
 
 ## Exact commands
 
-Node 24.11.0, from D:/My Space/Ignitra Website:
+Node 24.11.0, cwd D:/My Space/Ignitra Website:
 
-```powershell
-npm ci
-npm run dev
-# Production and checks:
-npm run build
-npm run lint
-npm run typecheck
-npm run format:check
-npm test
-npm run verify-content
-npm run test:visual
-npm run test:delivery
-npm run preview
-# Stage 4 only:
-npm run lighthouse
-```
+    npm ci
+    npm run dev
+    npm run build
+    npm run preview
+    npm run lint
+    npm run typecheck
+    npm run format:check
+    npm test
+    npm run verify-content
+    node scripts/verify-content.mjs --motion
+    npm run test:visual
+    npm run test:motion
+    node scripts/capture-motion.mjs
+    npm run build:rocket
+    npm run test:delivery
+    npm run lighthouse
 
-Dev http://127.0.0.1:3000; static preview http://127.0.0.1:4173. Content verifier starts loopback 4473. Mock delivery uses 4480 and intercepts requests. Playwright uses installed Chrome channel. Copy .env.example to .env.local only when an approved endpoint is available; rebuild after changing it. If test:delivery is forcibly interrupted, unset NEXT_PUBLIC_CONSULTATION_ENDPOINT and run build before previewing production. Scratch output is ignored; persisted evidence is in docs. Use a project-local npm cache if necessary.
+Dev: http://127.0.0.1:3000. Preview: http://127.0.0.1:4173. Content gate starts its own 4473 server. Motion capture requires preview; browser tests manage/reuse preview. Both verification modes need a current build; run them sequentially because they share port/profile/report. Capture uses a separate profile. npm run test:delivery builds with intercepted loopback endpoint4480 then restores the endpoint-free build; if interrupted unset NEXT_PUBLIC_CONSULTATION_ENDPOINT and rebuild. No live form submissions in QA. Lighthouse belongs to Stage 4 after its dev-dependency review. No Python/requirements.txt is needed.
 
-No Python/requirements.txt, remote, CI, push or deployment. .env.example now exists for the public endpoint URL (no secret). main retained at 9c687cf; branch build/from-scratch. Stage 1 commits ad77597 and c2a1809. Stage 2 implementation commit: d712dd0. A following documentation commit records the explicit delivery deferral and closes the stage; get its ID with git log -1 --oneline. Use command-scoped safe.directory per AGENTS if needed.
+## Git and next action
 
-## Next action
+Branch build/from-scratch; main retained at 9c687cf. Stage 1 ad77597/c2a1809; Stage 2 d712dd0/3e434f8. Stage 3 is complete and committed with its verification evidence. Get its ID with git log -1 --oneline. Use command-scoped safe.directory per AGENTS.md; never change global Git config. No remote/push/deployment requested or performed.
 
-The delivery deferral is approved. Switch to GPT-6-Astra / High and wait for the user to say “continue stage 3”. At Stage 3 entry, state stage/model, reselect animation/3D/performance skills, read the required files, then follow tasks/plan.md. Preserve all static/reduced-motion content gates while adding bounded engine choreography, intro, cursor, nav behavior and theme reveal. No source GLB exists: independently author the rocket scene and retain the theme posters as fallback.
+Stage 4: reselect browser/performance/accessibility/review skills, read required files, review LHCI dev advisories, optimize and measure without changing copy, test all requested widths/themes and reduced motion/no-flash/keyboard, capture docs/after and final video, produce final report through the requested template. Carry the deferred delivery dependency forward. Stop after this Stage 3 handoff until the user switches to GPT-6.1-Sol and requests Stage 4.

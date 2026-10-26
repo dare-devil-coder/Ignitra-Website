@@ -4,7 +4,7 @@ Read docs/HANDOFF.md first, then docs/SECTION_MAP.md and content/site-content.js
 
 ## Stack and scope
 
-Fresh Next.js App Router + strict TypeScript, static export, Tailwind v4 and CSS tokens. GSAP/ScrollTrigger, Lenis and R3F/drei are pinned but not loaded through Stage 2. Legacy source is the public Ignitra URL; evidence in docs/legacy-source is reference only. Never reuse its code/layout or edit a supplied legacy/ folder.
+Fresh Next.js App Router + strict TypeScript, static export, Tailwind v4 and CSS tokens. GSAP/ScrollTrigger and Lenis load lazily for motion; R3F and a meshopt GLB load only on eligible desktop devices. Three is compatibility-pinned to 0.182.0 (see docs/MOTION.md). Legacy source is the public Ignitra URL; evidence in docs/legacy-source is reference only. Never reuse its code/layout or edit a supplied legacy/ folder.
 
 ## Commands
 
@@ -20,7 +20,7 @@ Use docs/DESIGN.md and src/styles/tokens.css. Both themes required; no color lit
 
 ## Map
 
-content/: immutable baseline and copy. src/app/: routes. src/components/{ui,sections,layout}/: implemented responsive UI; the temporary proof renderer was removed in Stage 2. src/lib/{content,theme,motion}/: shared contracts. src/styles/: tokens and global CSS. public/assets/: local assets/fonts. scripts/: audit and verification. docs/: evidence, plan and handoff. Future 3D belongs in src/components/scene/ and public/assets/models/.
+content/: immutable baseline and copy. src/app/: routes. src/components/{ui,sections,layout}/: implemented responsive UI; the temporary proof renderer was removed in Stage 2. src/lib/{content,theme,motion}/: shared contracts. src/styles/: tokens and global CSS. public/assets/: local assets/fonts. scripts/: audit and verification. docs/: evidence, plan and handoff. 3D lives in src/components/scene/ and public/assets/models/. src/lib/motion/runtime.ts owns scroll lifecycle; src/styles/motion.css owns supporting effects; src/lib/theme/transition.ts owns theme reveal.
 
 ## Stages and models
 
@@ -37,3 +37,5 @@ Target mobile Lighthouse >=85, LCP <2.5s, CLS <0.1; 60fps desktop scrolling. Laz
 Stage 2 correction: the user explicitly approved fixing the malformed phone pattern on 2026-10-25. The exact original/new attribute pair is in content/allowed-diffs.json; source evidence stays unchanged. Original authored/state/attribute records are additionally frozen by content/records-lock.sha256. Never alter either lock to pass a check. Production consultation delivery needs an approved NEXT_PUBLIC_CONSULTATION_ENDPOINT; no endpoint means disabled Send request. npm run test:delivery uses intercepted local requests and restores the disabled production build.
 
 Stage handoff: user explicitly approved “Defer delivery; hand off to Stage 3.” Stage 2 is closed; consultation endpoint/error/delivery work is a pre-launch dependency. It does not block Stage 3 motion work. Keep live sending disabled until configured and verified; do not claim delivery parity.
+
+Stage 3 checks: npm run test:motion; node scripts/verify-content.mjs --motion (build first, same immutable comparisons after real reveals settle); node scripts/capture-motion.mjs against the running preview. npm run build:rocket regenerates the owned compressed asset. Never weaken the reduced-motion baseline. Final performance/Lighthouse and comprehensive accessibility QA remain Stage 4.

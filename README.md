@@ -1,6 +1,6 @@
 # Ignitra rebuild
 
-A fresh content-preserving rebuild of https://www.ignitra.co.in/. Stage 2 implements the responsive homepage and client interactions in both themes. Scroll choreography and live 3D are planned for Stage 3. Consultation delivery requires an approved endpoint before launch.
+A fresh content-preserving rebuild of https://www.ignitra.co.in/. Stage 3 adds bounded scroll choreography, a local compressed rocket scene and theme transitions to the responsive homepage. Consultation delivery requires an approved endpoint before launch.
 
 ## Setup
 
@@ -12,13 +12,17 @@ Use Node 24.11.0 and npm. Run npm ci, then npm run dev. For production verificat
 - npm run typecheck — strict TypeScript
 - npm test — verifier mutation tests
 - npm run verify-content — actual browser comparison against independent legacy snapshots
-- npm run test:visual — foundation screenshots at four widths in both themes
+- npm run test:visual — browser checks and screenshots in both themes
+- npm run test:motion — motion, theme continuity, pin release and fallback browser checks
+- node scripts/verify-content.mjs --motion — the unchanged content gate after real scroll reveals settle
+- npm run build:rocket — regenerate the independently authored compressed GLB
+- node scripts/capture-motion.mjs — Stage 3 screenshots/video against the running preview
 - npm run test:delivery — temporary endpoint build, intercepted local submission tests, then restore the endpoint-free production build
 - npm run lighthouse — Lighthouse CI against built static output (final reporting in Stage 4)
 
 ## Project map
 
-content/ holds all site copy, observed states, metadata and immutable comparison data. src/lib/content is the sole application access point. src/styles/tokens.css owns the palette and themes. src/lib/theme/bootstrap.ts applies stored/system preference before paint. src/lib/motion contains tokens only until Stage 3. src/components/{ui,sections,layout} owns the built interface; the temporary proof renderer has been removed. public/assets contains copied local assets and fonts. docs contains the audit, skills, assets, section map, design contract and handoff. tasks contains the staged plan.
+content/ holds all site copy, observed states, metadata and immutable comparison data. src/lib/content is the sole application access point. src/styles/tokens.css owns the palette and themes. src/lib/theme/bootstrap.ts applies stored/system preference before paint. src/lib/motion owns the lazy GSAP/Lenis runtime, shared scene channels and timing tokens. src/components/scene owns the gated R3F renderer. See docs/MOTION.md for lifecycle and fallbacks. src/components/{ui,sections,layout} owns the built interface; the temporary proof renderer has been removed. public/assets contains copied local assets and fonts. docs contains the audit, skills, assets, section map, design contract and handoff. tasks contains the staged plan.
 
 ## Content and evidence
 

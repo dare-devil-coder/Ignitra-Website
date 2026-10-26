@@ -1,3 +1,4 @@
+import { RocketIsland } from '@/components/scene/RocketIsland';
 import { item } from '@/lib/content';
 import {
   Card,
@@ -30,9 +31,17 @@ export function Hero() {
         </div>
       </div>
       <div className="hero-visual">
+        <div className="hero-glow" aria-hidden="true" />
+        <div className="light-trails" aria-hidden="true">
+          <i />
+          <i />
+          <i />
+        </div>
         <div className="orbit orbit-one" aria-hidden="true" />
         <div className="orbit orbit-two" aria-hidden="true" />
-        <ThemeMedia section="hero" dark={6} light={7} eager />
+        <RocketIsland variant="hero">
+          <ThemeMedia section="hero" dark={6} light={7} eager />
+        </RocketIsland>
         <Copy section="hero" n={8} as="p" className="eyebrow hero-caption" />
       </div>
     </Section>
@@ -86,12 +95,12 @@ export function Services() {
 export function Engine() {
   return (
     <Section id="engine" className="engine">
-      <ThemeMedia
-        section="engine"
-        dark={1}
-        light={2}
-        className="engine-visual"
-      />
+      <RocketIsland variant="engine" className="engine-visual">
+        <ThemeMedia section="engine" dark={1} light={2} />
+        <div className="engine-progress" aria-hidden="true">
+          <i />
+        </div>
+      </RocketIsland>
       <SectionHeader section="engine" label={3} heading={4} intro={5} />
       <div className="engine-steps">
         {Array.from({ length: 7 }, (_, i) => {

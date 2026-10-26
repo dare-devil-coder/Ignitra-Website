@@ -1,5 +1,6 @@
 ﻿@import 'tailwindcss' source('../');
 @import './tokens.css';
+@import './motion.css';
 @theme inline {
   --color-background: var(--bg);
   --color-surface: var(--surface);

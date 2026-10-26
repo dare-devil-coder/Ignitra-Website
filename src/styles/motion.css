@@ -1,0 +1,321 @@
+﻿/* Stage 3 progressive motion. The default document remains fully visible. */
+.rocket-stage {
+  position: relative;
+}
+.hero-visual .rocket-stage {
+  width: 180%;
+  margin-left: -40%;
+  z-index: 1;
+}
+.hero-visual .rocket-stage .theme-media {
+  width: 100%;
+  margin: 0;
+}
+.rocket-stage.scene-ready > .theme-media {
+  clip-path: inset(50%);
+}
+.rocket-canvas {
+  position: absolute;
+  inset: -15% 0;
+  pointer-events: none;
+}
+.engine-visual .rocket-canvas {
+  inset: -20% 0;
+}
+.engine-visual.scene-ready {
+  mask-image: none;
+}
+.motion-word-mask {
+  display: inline-block;
+  overflow: clip;
+  vertical-align: top;
+  padding-bottom: 0.14em;
+  margin-bottom: -0.14em;
+}
+.motion-word {
+  display: inline-block;
+}
+.hero-glow {
+  position: absolute;
+  inset: 5% -25%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, var(--accent), transparent 65%);
+  opacity: var(--glow-opacity);
+  pointer-events: none;
+}
+.light-trails {
+  position: absolute;
+  inset: 0;
+  overflow: clip;
+  pointer-events: none;
+  opacity: var(--glow-opacity);
+}
+.light-trails i {
+  position: absolute;
+  width: 1px;
+  height: 30%;
+  top: 70%;
+  left: 20%;
+  background: linear-gradient(transparent, var(--accent), transparent);
+  transform: rotate(24deg);
+}
+.light-trails i:nth-child(2) {
+  left: 70%;
+  top: 50%;
+}
+.light-trails i:nth-child(3) {
+  left: 90%;
+  top: 80%;
+}
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: var(--z-progress);
+  pointer-events: none;
+}
+.intro-line {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0;
+  z-index: var(--z-intro);
+  pointer-events: none;
+}
+.film-grain {
+  position: fixed;
+  inset: 0;
+  background-image: url('/assets/grain.png');
+  background-size: 96px;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: var(--grain-blend);
+  pointer-events: none;
+  z-index: var(--z-content);
+}
+.cursor-dot,
+.cursor-ring {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: var(--z-cursor);
+  opacity: 0;
+}
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  margin: -2.5px;
+  background: var(--accent);
+}
+.cursor-ring {
+  width: 32px;
+  height: 32px;
+  margin: -16px;
+  border: 1px solid var(--accent);
+}
+.motion-desktop .cursor-dot,
+.motion-desktop .cursor-ring {
+  display: block;
+}
+.cursor-active .cursor-dot {
+  opacity: 0.9;
+}
+.cursor-active .cursor-ring {
+  opacity: 0.4;
+}
+.cursor-interactive .cursor-ring {
+  border-width: 2px;
+}
+.cursor-interactive .cursor-ring::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+}
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+body:has(dialog[open]) .cursor-dot,
+body:has(dialog[open]) .cursor-ring {
+  opacity: 0;
+}
+.nav-wrap:focus-within {
+  transform: translateY(0) !important;
+}
+.engine-progress {
+  display: none;
+  height: 2px;
+  background: var(--border);
+  margin-inline: 15%;
+}
+.engine-progress i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.motion-engine .engine-progress {
+  display: block;
+}
+.motion-engine .engine-visual {
+  width: 31%;
+  margin: 0 0 0 auto;
+  float: right;
+}
+.motion-engine .section-header {
+  max-width: 62%;
+}
+.motion-engine .engine-steps {
+  width: 62%;
+}
+.motion-engine .engine-step {
+  grid-template-columns: 2rem 1fr;
+  gap: 0.75rem 1.25rem;
+}
+.motion-engine .engine-step-copy {
+  grid-column: 2;
+}
+.engine-step {
+  position: relative;
+}
+.engine-step::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--duration-reveal) var(--ease-out);
+}
+.engine-step-active::after {
+  transform: scaleX(1);
+}
+.engine-step-active h3 {
+  color: var(--accent-text);
+}
+.button-primary {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+}
+.button-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--accent-hover);
+  transform: translateX(-101%);
+  transition: transform var(--duration-micro) var(--ease-out);
+}
+.button-primary:hover::before {
+  transform: translateX(0);
+}
+.footer a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--duration-micro);
+}
+.footer a:hover {
+  text-decoration-color: var(--accent-text);
+}
+@keyframes menu-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.mobile-menu[open] .mobile-menu-links a {
+  animation: menu-arrive 0.45s var(--ease-out) both;
+}
+.mobile-menu[open] .mobile-menu-links a:nth-child(2) {
+  animation-delay: var(--stagger);
+}
+.mobile-menu[open] .mobile-menu-links a:nth-child(3) {
+  animation-delay: calc(var(--stagger) * 2);
+}
+.consultation-dialog[open] .consultation-inner,
+.loop-detail {
+  animation: menu-arrive var(--duration-micro) var(--ease-out) both;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) {
+  z-index: 1;
+}
+.theme-fading,
+.theme-fading body,
+.theme-fading .section,
+.theme-fading .card,
+.theme-fading .nav-pill,
+.theme-fading dialog,
+.theme-fading input,
+.theme-fading textarea,
+.theme-fading .compounding,
+.theme-fading .footer {
+  transition:
+    background-color var(--duration-theme),
+    color var(--duration-theme),
+    border-color var(--duration-theme);
+}
+@media (max-width: 1023px), (pointer: coarse) {
+  .film-grain,
+  .light-trails {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .hero-visual .rocket-stage {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 650px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .motion-decoration,
+  .light-trails,
+  .hero-glow,
+  .rocket-canvas,
+  .engine-progress {
+    display: none;
+  }
+  .rocket-stage.scene-ready > .theme-media {
+    clip-path: none;
+  }
+  .mobile-menu[open] .mobile-menu-links a,
+  .consultation-dialog[open] .consultation-inner,
+  .loop-detail {
+    animation: none;
+  }
+  .engine-step::after {
+    transition: none;
+  }
+  .button-primary::before {
+    display: none;
+  }
+}
+
+.film-grain {
+  display: none;
+}
+.motion-desktop .film-grain {
+  display: block;
+}

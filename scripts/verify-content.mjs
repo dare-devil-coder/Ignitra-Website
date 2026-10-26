@@ -1,7 +1,7 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
-import { chromium } from 'playwright';
+import { launchEvidenceBrowser } from './evidence-browser.mjs';
 import { serve } from './preview.mjs';
 import { compare } from './content-compare.mjs';
 import { verifyInteractions } from './verify-interactions.mjs';
@@ -90,12 +90,15 @@ assert.deepEqual(
   snapshot.accessibility,
   'Source accessible labels changed',
 );
+const withMotion = process.argv.includes('--motion');
 let server;
 let browser;
+let closeBrowser;
 const report = {
-  stage: 2,
+  stage: 3,
+  motion: withMotion,
   scope:
-    'Real rendered baseline at mobile/desktop in both themes, reduced motion; independent legacy profiles. Includes rendered menu/dialog/loop/form-attribute/theme interaction checks.',
+    'Real rendered mobile/desktop in both themes against independent legacy profiles. Includes rendered menu/dialog/loop/form-attribute/theme interaction checks; motion flag controls the preference.',
   approvedAttributeCorrections: allow.approvedAttributeCorrections,
   checks: [],
   diffs: [],
@@ -107,11 +110,11 @@ try {
     server = await serve(4473);
     base = 'http://127.0.0.1:4473';
   }
-  browser = await chromium.launch({ channel: 'chrome', headless: true });
+  ({ browser, close: closeBrowser } = await launchEvidenceBrowser('content'));
   for (const profile of snapshot.profiles) {
     const context = await browser.newContext({
       viewport: { width: profile.width, height: 1000 },
-      reducedMotion: 'reduce',
+      reducedMotion: withMotion ? 'no-preference' : 'reduce',
       colorScheme: profile.theme,
     });
     await context.addInitScript((theme) => {
@@ -123,6 +126,22 @@ try {
     page.on('pageerror', (e) => errors.push(e.message));
     await page.goto(base, { waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
+    if (withMotion) {
+      await page.waitForFunction(
+        () => document.body.dataset.motionReady === 'true',
+      );
+      // Settle every real reveal while reading the complete page in source order.
+      for (const target of await page
+        .locator(
+          'main h1, main h2, .service-row, .problem-row, .why-card, .start-grid, .compound-row, .engine-step',
+        )
+        .all()) {
+        await target.scrollIntoViewIfNeeded();
+        await page.waitForTimeout(1100);
+      }
+      await page.evaluate(() => scrollTo(0, 0));
+      await page.waitForTimeout(1500);
+    }
     const actual = await page.evaluate(() => {
       const norm = (s) => s.replace(/\s+/g, ' ').trim();
       const visible = (e) => {
@@ -239,6 +258,10 @@ try {
         report.checks.at(-1).result = 'FAIL';
       }
     }
+    console.log(
+      profile.width + '-' + profile.theme + ': ' + report.checks.at(-1).result,
+    );
+    await page.goto('about:blank');
     await context.close();
   }
   await mkdir('output/verification', { recursive: true });
@@ -259,6 +282,6 @@ try {
   );
   if (report.diffs.length) process.exitCode = 1;
 } finally {
-  await browser?.close();
+  await closeBrowser?.();
   await new Promise((resolve) => (server ? server.close(resolve) : resolve()));
 }

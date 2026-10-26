@@ -52,3 +52,7 @@ Content completeness is limited by private server behavior; ask for backend sour
 ## Approved handoff adjustment
 
 After Stage 2 UI and client-interaction validation, the user explicitly instructed “Defer delivery; hand off to Stage 3.” Live consultation endpoint/server-error/delivery work is deferred until before launch. Stage 2 is closed; Stage 3 may begin on its designated model after the user requests it. Keep production Send disabled and preserve the deferred launch dependency through all later handoffs.
+
+## Stage 3 completion
+
+Motion, adaptive 3D and theme transitions are complete. Both rendered-content modes passed with zero differences and clean exits; the 21-test browser suite and independent finish review passed. See docs/HANDOFF.md and docs/VERIFICATION_STAGE3.md for evidence, reproduction commands and Stage 4 scope. Consultation delivery remains the approved deferred launch dependency.
