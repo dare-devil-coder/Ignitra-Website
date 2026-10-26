@@ -1,0 +1,12 @@
+{
+  "method": "Headless Chrome on the current Windows host, normal motion, 1440x1000, real wheel scrolling while recording video and six screenshots; includes automation overhead. Not a device or field guarantee.",
+  "hardwareConcurrency": 20,
+  "duration": 12273.199999999255,
+  "frames": 1138,
+  "averageFps": 92.72235439820659,
+  "p95FrameMs": 20.80000000000109,
+  "framesOver33ms": 9,
+  "longTasks": [
+    64
+  ]
+}

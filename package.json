@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
-    "build": "next build --webpack",
+    "build": "next build --webpack && node scripts/finalize-export.mjs",
     "preview": "node scripts/preview.mjs",
     "lint": "eslint src scripts/verify-content.mjs",
     "typecheck": "tsc --noEmit",
@@ -16,10 +16,13 @@
     "test": "node --test tests/*.test.mjs",
     "verify-content": "node scripts/verify-content.mjs",
     "test:visual": "playwright test",
-    "lighthouse": "lhci autorun",
+    "lighthouse": "node scripts/lighthouse.mjs",
     "test:delivery": "node scripts/test-delivery.mjs",
     "build:rocket": "node scripts/build-rocket.mjs",
-    "test:motion": "playwright test tests/visual/motion.spec.ts"
+    "test:motion": "playwright test tests/visual/motion.spec.ts",
+    "test:a11y": "node scripts/audit-site-accessibility.mjs",
+    "build:assets": "node scripts/optimize-assets.mjs",
+    "capture:final": "node scripts/capture-final.mjs"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",
@@ -32,10 +35,10 @@
     "three": "0.182.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@gltf-transform/core": "4.5.1",
     "@gltf-transform/extensions": "4.5.1",
     "@gltf-transform/functions": "4.5.1",
-    "@lhci/cli": "0.15.1",
     "@playwright/test": "1.64.1",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "26.6.5",
@@ -45,6 +48,7 @@
     "cheerio": "1.2.0",
     "eslint": "9.39.5",
     "eslint-config-next": "16.4.3",
+    "lighthouse": "13.5.0",
     "meshoptimizer": "1.1.1",
     "playwright": "1.64.1",
     "postcss": "8.5.31",

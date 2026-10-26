@@ -240,6 +240,9 @@ html[data-theme='light'] .only-light {
   border-radius: var(--radius-pill);
 }
 .nav-logo {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   width: 132px;
   flex: none;
 }
@@ -255,6 +258,11 @@ html[data-theme='light'] .only-light {
   font-size: 0.75rem;
 }
 .nav-links a {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   padding-block: 0.75rem;
   white-space: nowrap;
@@ -821,6 +829,9 @@ html[data-theme='light'] .only-light {
   margin-bottom: 0.5rem;
 }
 .footer nav a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   font-size: clamp(1.25rem, 2vw, 1.75rem);
   padding-block: 0.2rem;
 }

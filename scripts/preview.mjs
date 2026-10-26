@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { gzipSync } from 'node:zlib';
 const types = {
   '.html': 'text/html',
   '.js': 'text/javascript',
@@ -9,6 +10,8 @@ const types = {
   '.json': 'application/json',
   '.png': 'image/png',
   '.webp': 'image/webp',
+  '.avif': 'image/avif',
+  '.glb': 'model/gltf-binary',
   '.svg': 'image/svg+xml',
   '.woff2': 'font/woff2',
   '.xml': 'application/xml',
@@ -30,11 +33,18 @@ export function serve(port = 4173) {
       if ((await stat(file).catch(() => null))?.isDirectory())
         file = path.join(file, 'index.html');
       const bytes = await readFile(file);
+      const compress =
+        /\bgzip\b/.test(' ' + (req.headers['accept-encoding'] || '')) &&
+        /\.(html|css|js|json|svg|xml|txt)$/.test(file);
+      const body = compress ? gzipSync(bytes) : bytes;
       res.writeHead(200, {
+        ...(compress ? { 'Content-Encoding': 'gzip' } : {}),
+        Vary: 'Accept-Encoding',
+        'Content-Length': body.length,
         'Content-Type': types[path.extname(file)] || 'application/octet-stream',
         'Cache-Control': 'no-store',
       });
-      res.end(bytes);
+      res.end(body);
     } catch {
       res.writeHead(404).end();
     }

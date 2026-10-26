@@ -1,0 +1,23 @@
+[
+  {
+    "input": "public/assets/ignitra-logo-primary-silver.png",
+    "output": "public/assets/ignitra-logo-primary-silver.webp",
+    "before": 71841,
+    "after": 39216,
+    "mode": "Lossless WebP, original dimensions and alpha"
+  },
+  {
+    "input": "public/assets/ignitra-logo-flat-on-light.png",
+    "output": "public/assets/ignitra-logo-flat-on-light.webp",
+    "before": 56184,
+    "after": 33254,
+    "mode": "Lossless WebP, original dimensions and alpha"
+  },
+  {
+    "input": "public/assets/ignitra-spark.png",
+    "output": "public/assets/ignitra-spark.webp",
+    "before": 19251,
+    "after": 15554,
+    "mode": "Lossless WebP, original dimensions and alpha"
+  }
+]

@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../fixtures';
 for (const theme of ['dark', 'light'] as const) {
   test(
     'system theme, before-paint and storage failure ' + theme,

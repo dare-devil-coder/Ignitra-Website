@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../fixtures';
 for (const theme of ['dark', 'light'] as const)
   for (const width of [375, 768, 1440, 1920])
     test(theme + ' ' + width, async ({ page }) => {

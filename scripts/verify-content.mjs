@@ -95,7 +95,7 @@ let server;
 let browser;
 let closeBrowser;
 const report = {
-  stage: 3,
+  stage: 4,
   motion: withMotion,
   scope:
     'Real rendered mobile/desktop in both themes against independent legacy profiles. Includes rendered menu/dialog/loop/form-attribute/theme interaction checks; motion flag controls the preference.',

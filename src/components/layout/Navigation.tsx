@@ -36,6 +36,8 @@ export function Navigation() {
                 key={img.source}
                 src={asset(img.source)}
                 alt={img.alt}
+                decoding="async"
+                fetchPriority="low"
                 width="160"
                 height="28"
                 className={i === 0 ? 'only-dark' : 'only-light'}
@@ -92,6 +94,8 @@ export function Navigation() {
                 key={i}
                 src={asset(img.source!)}
                 alt={img.attributes?.alt}
+                decoding="async"
+                fetchPriority="low"
                 width="160"
                 height="28"
                 className={i === 0 ? 'only-dark' : 'only-light'}

@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
 /** Dedicated ignored profiles avoid Windows temp-directory removal stalls.
  * Test pages still use isolated incognito contexts; no personal profile is opened.
  */
-export async function launchEvidenceBrowser(task) {
+export async function launchEvidenceBrowser(task, args = []) {
   if (!/^[a-z-]+$/.test(task)) throw new Error('Invalid evidence task name');
   const profile = path.resolve('output/browser-profiles', task);
   const artifacts = path.resolve('output/browser-artifacts', task);
@@ -15,6 +15,7 @@ export async function launchEvidenceBrowser(task) {
   ]);
   const owner = await chromium.launchPersistentContext(profile, {
     channel: 'chrome',
+    args,
     headless: true,
     artifactsDir: artifacts,
   });

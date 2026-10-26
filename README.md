@@ -18,7 +18,7 @@ Use Node 24.11.0 and npm. Run npm ci, then npm run dev. For production verificat
 - npm run build:rocket — regenerate the independently authored compressed GLB
 - node scripts/capture-motion.mjs — Stage 3 screenshots/video against the running preview
 - npm run test:delivery — temporary endpoint build, intercepted local submission tests, then restore the endpoint-free production build
-- npm run lighthouse — Lighthouse CI against built static output (final reporting in Stage 4)
+- npm run lighthouse — official Lighthouse 13.5.0, three isolated samples per device/theme and enforced budgets
 
 ## Project map
 
@@ -32,4 +32,6 @@ Never refresh the snapshot to mask a failure. scripts/extract-content.mjs is a o
 
 The current build produces out/ using Next.js static export. It can be served by a static host. Preserve the apex-domain canonical and asset paths; GitHub Pages subpath hosting requires an explicit basePath decision. Nothing has been pushed or deployed. Consultation backend parity must be resolved before launch; the original private Server Action cannot be exported from a public page.
 
-No Python tooling or requirements.txt is needed. Copy .env.example to .env.local and set NEXT_PUBLIC_CONSULTATION_ENDPOINT only after an approved endpoint is available. An empty value keeps Send request disabled. See docs/CONSULTATION.md for the contract and local-only test.
+No Python website tooling or requirements.txt is needed. The installed document renderer was probed for report export only; it is not a production or project dependency. Copy .env.example to .env.local and set NEXT_PUBLIC_CONSULTATION_ENDPOINT only after an approved endpoint is available. An empty value keeps Send request disabled. See docs/CONSULTATION.md for the contract and local-only test.
+
+Stage 4 tools: npm run build:assets regenerates lossless brand derivatives; npm run test:a11y audits real page/form/menu states; npm run capture:final captures all requested widths; node scripts/capture-scroll-performance.mjs records wheel scrolling and frame timing. These scripts manage their own local servers. The Lighthouse runner uses 4474/4481 and must run without concurrent browser/build workloads. Preview supports gzip; the current automation transport may expose decompressed payload sizes, so deployment measurements must be repeated on the final host.

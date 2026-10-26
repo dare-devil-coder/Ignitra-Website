@@ -1,4 +1,4 @@
-﻿import { test, expect } from '@playwright/test';
+﻿import { test, expect } from '../fixtures';
 for (const theme of ['dark', 'light'] as const) {
   test(
     'desktop motion, pinning, theme continuity and teardown ' + theme,

@@ -49,7 +49,7 @@
   --surface-alt: var(--graphite);
   --text: var(--cream);
   --text-muted: color-mix(in srgb, var(--cream) 78%, var(--ink));
-  --text-meta: color-mix(in srgb, var(--cream) 60%, var(--ink));
+  --text-meta: color-mix(in srgb, var(--cream) 63%, var(--ink));
   --accent: var(--ember);
   --accent-text: var(--ember);
   --on-accent: var(--ink);

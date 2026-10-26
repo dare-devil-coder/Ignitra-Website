@@ -59,33 +59,36 @@ export function mountMotion(root: HTMLElement) {
         .to(introLine, { scaleX: 1, duration: 0.6, ease: motion.ease })
         .to(introLine, { opacity: 0, duration: 0.25 });
     }
-    const heroWords = split(q('#hero-h'));
-    const heroLines = [...new Set(heroWords.map((w) => w.offsetTop))];
-    if (scrollY < innerHeight) {
-      gsap
-        .timeline({ defaults: { ease: motion.ease } })
-        .from(
-          heroWords,
-          {
-            yPercent: 110,
-            opacity: 0,
-            duration: 1.4,
-            stagger: (i) =>
-              heroLines.indexOf(heroWords[i].offsetTop) * motion.stagger,
-          },
-          firstVisit ? 0.2 : 0,
-        )
-        .from(q('.hero-copy > .eyebrow'), { opacity: 0, duration: 0.6 }, 0)
-        .from(
-          [q('.hero-intro'), q('.hero .button-row'), q('.hero-visual')],
-          {
-            y: motion.distance / 2,
-            opacity: 0,
-            duration: 1,
-            stagger: motion.stagger,
-          },
-          0.4,
-        );
+    // Keep the LCP headline stable on touch/mobile; desktop owns the intro choreography.
+    if (matchMedia('(min-width: 768px) and (pointer: fine)').matches) {
+      const heroWords = split(q('#hero-h'));
+      const heroLines = [...new Set(heroWords.map((w) => w.offsetTop))];
+      if (scrollY < innerHeight) {
+        gsap
+          .timeline({ defaults: { ease: motion.ease } })
+          .from(
+            heroWords,
+            {
+              yPercent: 110,
+              opacity: 0,
+              duration: 1.4,
+              stagger: (i) =>
+                heroLines.indexOf(heroWords[i].offsetTop) * motion.stagger,
+            },
+            firstVisit ? 0.2 : 0,
+          )
+          .from(q('.hero-copy > .eyebrow'), { opacity: 0, duration: 0.6 }, 0)
+          .from(
+            [q('.hero-intro'), q('.hero .button-row'), q('.hero-visual')],
+            {
+              y: motion.distance / 2,
+              opacity: 0,
+              duration: 1,
+              stagger: motion.stagger,
+            },
+            0.4,
+          );
+      }
     }
     // Already visible content remains visible when scripts load late or restore scroll.
     for (const heading of all<HTMLElement>('.section-header h2, .cta h2')) {

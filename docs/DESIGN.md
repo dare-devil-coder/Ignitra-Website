@@ -113,7 +113,7 @@ Do read all copy through the content module. Do preserve the section order and e
 | Z-index: content / nav / progress / menu / dialog / intro / cursor | 1 / 30 / 40 / 50 / 60 / 70 / 80                            |
 | Reduced motion                                                     | durations and displacement 0; no pin/scrub/parallax/cursor |
 
-## Stage 2 implementation — 2026-10-25
+## Stage 2 implementation ï¿½ 2026-10-25
 
 The static homepage now applies this existing world through shared content, container, section, heading, link/button and card primitives. The eight main sections retain their source order. The desktop hero uses a twelve-column grid, with copy spanning eight columns and theme-specific rocket media spanning four; mobile stacks both across the available width. Floating pill navigation, editorial problem/service rows, a seven-stage selectable loop, seven fully visible engine steps, the single inverted compounding band, an asymmetric reasons grid, engagement brief, CTA and large wordmark footer are implemented in both themes.
 
@@ -128,3 +128,6 @@ Motion now extends the existing cinematic rocket identity without replacing the 
 The lazy motion runtime owns scroll timelines, responsive contexts, listeners and cleanup. Lenis, the additive pointer ring, restrained trails/grain and magnetic primary actions are desktop enhancements; touch and constrained devices keep native scrolling. The independently authored compressed rocket uses palette-driven materials, transparent canvases and capped DPR. Original theme posters and their locked alternative text remain the fallback. Theme changes update the existing scene and reveal the new palette from the icon control, with color-transition and immediate reduced-motion alternatives.
 
 The existing timing tokens remain authoritative. Reduced motion exposes the static content and disables pinning, smoothing, scene rendering and pointer effects, including when the preference changes during the session. Keyboard focus keeps navigation visible, reveals focused content and remains independent of decorative effects. This append preserves the incumbent schema and token values; it does not regenerate the root pointer or sidecar. See [MOTION.md](MOTION.md) for implementation details and [DESIGN_STAGE3_REVIEW.md](DESIGN_STAGE3_REVIEW.md) for evidence and limits. Stage 4 still owns measured performance and comprehensive accessibility/browser QA; consultation delivery remains deferred and disabled without an approved endpoint.
+## Stage 4 verification adjustments
+
+Keep the corrected dark meta-text contrast and enlarged navigation, logo and footer hit areas when refining shared controls. Preserve the existing type and spacing roles. Mobile/touch hero text remains visible through hydration; desktop masked choreography and all section content remain. Retain original font families and pixels when adjusting font preload hints, image priority or lossless brand derivatives. Continue to expose every section with reduced motion. These are refinements of the existing world; the four-color direction, content order and original copy retain authority.

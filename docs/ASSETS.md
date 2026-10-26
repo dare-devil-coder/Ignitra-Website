@@ -58,3 +58,7 @@ No copied image exceeds 100 KB. Do not enlarge logos beyond native resolution. K
 
 - public/assets/models/ignitra-rocket.glb: 24,260 bytes; independently authored low-poly geometry via scripts/build-rocket.mjs, no legacy geometry/code or external asset license dependency. Project-owned generated asset; no separate distribution license was supplied. meshopt compression, deduplication and pruning; no textures. Raw export 119,500 bytes. Original posters retained for fallback.
 - public/assets/grain.png: 13200 bytes, 96 × 96; deterministically generated ink/alpha noise for this project, no stock source. Theme opacity/blend applied in CSS.
+
+## Stage 4 optimization
+
+Brand PNG originals remain unchanged. Three lossless WebP derivatives preserve their dimensions and alpha; see asset-optimization-stage4.json for exact byte savings (59,252 bytes total). src/lib/content/optimized-assets.json maps only technical local URLs through the existing content helper. Posters/cards were already WebP under 31 KB and were retained. Fonts remain self-hosted next/font originals with swap; scripts/finalize-export.mjs restores the three missing export preload hints from emitted CSS. No remote media or textures were added.

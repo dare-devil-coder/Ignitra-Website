@@ -1,5 +1,6 @@
 import raw from '../../../content/site-content.json';
 import assets from '../../../content/asset-manifest.json';
+import optimized from './optimized-assets.json';
 export interface ContentImage {
   alt: string;
   source: string;
@@ -33,7 +34,7 @@ export function section(id: string): ContentSection {
 export function asset(source: string): string {
   const match = assets.find((a) => new URL(a.source).pathname === source);
   if (!match) throw new Error('Unmapped legacy asset: ' + source);
-  return match.url;
+  return (optimized as Record<string, string>)[match.url] ?? match.url;
 }
 
 export function item(sectionId: string, number: number): ContentItem {

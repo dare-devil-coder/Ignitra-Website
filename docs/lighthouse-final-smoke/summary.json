@@ -1,0 +1,127 @@
+{
+  "method": "Fresh Chrome process per sample, cold HTTP cache, persisted theme only, Lighthouse default simulated mobile or desktop throttling; localhost static export. Synthetic lab evidence, not field data.",
+  "results": [
+    {
+      "formFactor": "mobile",
+      "theme": "dark",
+      "run": 1,
+      "lighthouseVersion": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "fetchTime": "2026-10-26T07:49:43.309Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 2362.1813161589535,
+      "cls": 0,
+      "tbt": 115.5,
+      "warnings": []
+    },
+    {
+      "formFactor": "mobile",
+      "theme": "light",
+      "run": 1,
+      "lighthouseVersion": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "fetchTime": "2026-10-26T07:49:57.297Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 2133.7503910344685,
+      "cls": 0,
+      "tbt": 76.5,
+      "warnings": []
+    },
+    {
+      "formFactor": "desktop",
+      "theme": "dark",
+      "run": 1,
+      "lighthouseVersion": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "fetchTime": "2026-10-26T07:50:10.894Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 915.8224583047399,
+      "cls": 0.05738204294720251,
+      "tbt": 0,
+      "warnings": []
+    },
+    {
+      "formFactor": "desktop",
+      "theme": "light",
+      "run": 1,
+      "lighthouseVersion": "13.5.0",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "fetchTime": "2026-10-26T07:50:30.618Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp": 901.2945015272084,
+      "cls": 0.05738204294720251,
+      "tbt": 0,
+      "warnings": []
+    }
+  ],
+  "summaries": [
+    {
+      "formFactor": "mobile",
+      "theme": "dark",
+      "runs": 1,
+      "performance": 97,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 2362.1813161589535,
+      "cls": 0,
+      "tbt": 115.5
+    },
+    {
+      "formFactor": "mobile",
+      "theme": "light",
+      "runs": 1,
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 2133.7503910344685,
+      "cls": 0,
+      "tbt": 76.5
+    },
+    {
+      "formFactor": "desktop",
+      "theme": "dark",
+      "runs": 1,
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 915.8224583047399,
+      "cls": 0.05738204294720251,
+      "tbt": 0
+    },
+    {
+      "formFactor": "desktop",
+      "theme": "light",
+      "runs": 1,
+      "performance": 98,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "lcp": 901.2945015272084,
+      "cls": 0.05738204294720251,
+      "tbt": 0
+    }
+  ]
+}

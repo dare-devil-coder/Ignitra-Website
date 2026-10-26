@@ -116,6 +116,7 @@ export function Media({
       className={className}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
+      fetchPriority={eager ? 'low' : undefined}
     />
   );
 }

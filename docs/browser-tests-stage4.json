@@ -1,0 +1,46 @@
+[
+  {
+    "path": "output/stage4-chrome-tests.json",
+    "stats": {
+      "startTime": "2026-10-26T07:44:37.891Z",
+      "duration": 143292.109,
+      "expected": 28,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  {
+    "path": "output/stage4-edge-tests.json",
+    "stats": {
+      "startTime": "2026-10-26T07:47:02.716Z",
+      "duration": 15430.43,
+      "expected": 7,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  {
+    "path": "output/stage4-final-chrome-quality.json",
+    "stats": {
+      "startTime": "2026-10-26T07:51:43.698Z",
+      "duration": 4678.659,
+      "expected": 7,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  {
+    "path": "output/stage4-final-edge-quality.json",
+    "stats": {
+      "startTime": "2026-10-26T07:51:49.823Z",
+      "duration": 4550.835999999999,
+      "expected": 7,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  }
+]

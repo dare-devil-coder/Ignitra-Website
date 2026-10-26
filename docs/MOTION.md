@@ -43,3 +43,7 @@ Official integration references: [Lenis](https://github.com/darkroomengineering/
 
 ## Verification commands
 Build first: npm run build. Run npm run verify-content for unchanged reduced-motion baseline and interactions; node scripts/verify-content.mjs --motion runs the same comparisons after scrolling and settling real reveals. npm run test:motion checks lifecycle/pinning/theme/fallback behavior. node scripts/capture-motion.mjs captures the motion evidence against npm run preview. Final device performance/Lighthouse, full accessibility QA and final screenshots belong to Stage 4.
+
+## Stage 4 mobile adjustment
+
+The initial hero line splitting and entry timeline now run only at widths of at least 768px with a fine pointer. Mobile/touch hero content stays visible during hydration, avoiding a late LCP candidate mutation. Other section reveals, intro line, native scrolling, menu/dialog feedback and theme switching retain their existing paths. Desktop choreography and live reduced-motion teardown are preserved.

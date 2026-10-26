@@ -1,0 +1,59 @@
+{
+  "method": "Manual DOM/keyboard supplement to axe incomplete ARIA checks. aria-controls points to the listbox when expanded; the collapsed list is conditionally unmounted. Contrast over gradients/top-layer surfaces remains a visual/manual check, not an automatic AA certification.",
+  "checks": [
+    {
+      "theme": "dark",
+      "state": "closed-selector",
+      "expanded": "false",
+      "controls": "service-listbox",
+      "targetExists": false,
+      "dialogNamed": true,
+      "focusInside": true
+    },
+    {
+      "theme": "dark",
+      "state": "open-selector",
+      "expanded": "true",
+      "controls": "service-listbox",
+      "targetExists": true,
+      "dialogNamed": true,
+      "focusInside": true
+    },
+    {
+      "theme": "dark",
+      "state": "selected",
+      "expanded": "false",
+      "controls": "service-listbox",
+      "targetExists": false,
+      "dialogNamed": true,
+      "focusInside": true
+    },
+    {
+      "theme": "light",
+      "state": "closed-selector",
+      "expanded": "false",
+      "controls": "service-listbox",
+      "targetExists": false,
+      "dialogNamed": true,
+      "focusInside": true
+    },
+    {
+      "theme": "light",
+      "state": "open-selector",
+      "expanded": "true",
+      "controls": "service-listbox",
+      "targetExists": true,
+      "dialogNamed": true,
+      "focusInside": true
+    },
+    {
+      "theme": "light",
+      "state": "selected",
+      "expanded": "false",
+      "controls": "service-listbox",
+      "targetExists": false,
+      "dialogNamed": true,
+      "focusInside": true
+    }
+  ]
+}

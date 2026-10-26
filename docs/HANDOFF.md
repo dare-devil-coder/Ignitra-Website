@@ -1,4 +1,4 @@
-# Handoff — Stage 3 complete; Stage 4 ready
+# Handoff — Stage 4 QA in progress
 
 ## Read first
 
@@ -71,4 +71,4 @@ Dev: http://127.0.0.1:3000. Preview: http://127.0.0.1:4173. Content gate starts 
 
 Branch build/from-scratch; main retained at 9c687cf. Stage 1 ad77597/c2a1809; Stage 2 d712dd0/3e434f8. Stage 3 is complete and committed with its verification evidence. Get its ID with git log -1 --oneline. Use command-scoped safe.directory per AGENTS.md; never change global Git config. No remote/push/deployment requested or performed.
 
-Stage 4: reselect browser/performance/accessibility/review skills, read required files, review LHCI dev advisories, optimize and measure without changing copy, test all requested widths/themes and reduced motion/no-flash/keyboard, capture docs/after and final video, produce final report through the requested template. Carry the deferred delivery dependency forward. Stop after this Stage 3 handoff until the user switches to GPT-6.1-Sol and requests Stage 4.
+Stage 4 is active on GPT-6.1-Sol. Skills reselected and loaded (SKILLS_USED.md). LHCI was replaced by official Lighthouse 13.5.0, removing all development advisories. Lossless brand WebP derivatives, a slight dark meta-text contrast correction, 44px footer targets, static mobile hero entry and emitted-font preload restoration are implemented. Current build succeeded. Final isolated Lighthouse matrix is running; final content/browser/accessibility/capture gates and final report still need closing. No source content or locks changed. Report DOCX rendering is blocked: packaged renderer needs absent LibreOffice; native Word automation stalled; an official renderer download could not complete. Deliver a complete Markdown report and explicitly document the DOCX export limitation unless a renderer becomes available. Do not deliver an unrendered DOCX.
